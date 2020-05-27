@@ -5,7 +5,55 @@ body {
 
 .container{
     height:500px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    background-color: #DEC0F1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #E4DFDA;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+}
+
+.col-md-8{
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.col-md-5{
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.col-md-3{
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.col-md-4{
+    margin-top: 30px;
+    height: 400px;
+}
+
+article{
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.container .btn-holder {
+    justify-content: flex-end;
+    display: flex;
+    margin-bottom: 25px;
+    margin-right: 50px;
+}
+
+img{
+    width: 300px; 
+    height: 400px;
+    margin-left: 10px;
+}
+
+p{
+    margin-left: 20px;
+    font-weight: bold;
 }
