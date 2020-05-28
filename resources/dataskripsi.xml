@@ -1,0 +1,545 @@
+<?xml version="1.0"?>
+
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:sf="http://skripsifinder.com/skripsi#"
+    xmlns:d="http://skripsifinder.com/data#">
+    
+    <rdf:Description rdf:about="http://skripsifinder.com/data12001">
+        <sf:nama>Jordy Saragih</sf:nama>
+        <sf:npm>140810120001</sf:npm>
+        <sf:judul>Sistem Informasi Persediaan Barang Berbasis Web dan Sistem Monitoring Berbasis Mobile pada Perusahaan Distribusi</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2016</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data120024">
+        <sf:nama>Faishal Wahiduddin</sf:nama>
+        <sf:npm>140810120024</sf:npm>
+        <sf:judul>Pemanfaatan Kartu Tanda Penduduk Elektronik sebagai Alternatif Otentikasi (Studi Kasus Pada Sistem PAUS ID di Universitas Padjadjaran</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2016</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data120015">
+        <sf:nama>Harits Muhammad</sf:nama>
+        <sf:npm>140810120015</sf:npm>
+        <sf:judul>Penerapan Data Mining dalam Menganlisis Kepribadian Pengguna Media Sosial Dengan Naive Baye Classifier: Studi Kasus Media Sosial Instagram</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2016</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data120006">
+        <sf:nama>Deisna Rahmaningtyas</sf:nama>
+        <sf:npm>140810120006</sf:npm>
+        <sf:judul>Analisis Perbandingan Metode Binerisasi Terhadap Citra Naskah Lontar Sunda Kuno</sf:judul>
+        <sf:peminatan>Artificial Intelligence</sf:peminatan>
+        <sf:tahun>2016</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data120023">
+        <sf:nama>M. Raditya Putra</sf:nama>
+        <sf:npm>140810120023</sf:npm>
+        <sf:judul>Aplikasi Steganografi Suara Menggunakan Metode Phase Coding</sf:judul>
+        <sf:peminatan>Artificial Intelligence</sf:peminatan>
+        <sf:tahun>2016</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data120026">
+        <sf:nama>Billal M. Hadian</sf:nama>
+        <sf:npm>140810120026</sf:npm>
+        <sf:judul>Network Behavior Anomaly Detection (Studi Kasus di Gedung D PPBS Universitas Padjadjaran</sf:judul>
+        <sf:peminatan>Jaringan Komputer</sf:peminatan>
+        <sf:tahun>2016</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data120020">
+        <sf:nama>Luqman Adibiarso</sf:nama>
+        <sf:npm>140810120020</sf:npm>
+        <sf:judul>Pengembangan Aplikasi Temporal Data Mining Prediksi Curah Hujan Berbasis PHP dan MySQL Menggunakan Model Autoregressive di Propinsi Jawa Barat</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2016</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data120014">
+        <sf:nama>Indah Maulidia Turrohmah</sf:nama>
+        <sf:npm>140810120014</sf:npm>
+        <sf:judul>Program Aplikasi Pengenalan Plat Nomor Kendaraan Mobil Menggunakan Template Matching Pada Sistem Informasi Parkir</sf:judul>
+        <sf:peminatan>Artificial Intelligence</sf:peminatan>
+        <sf:tahun>2016</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data120018">
+        <sf:nama>Muhammad Miftah Al Rasyid</sf:nama>
+        <sf:npm>140810120018</sf:npm>
+        <sf:judul>Rancang Bangun Aplikasi Penyisipan Pesan Ke Dalam Gambar Menggunakan Teknik Steganografi Dengan Metode Enhance LSB</sf:judul>
+        <sf:peminatan>Artificial Intelligence</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data120019">
+        <sf:nama>Benarivo Triadi Putra</sf:nama>
+        <sf:npm>140810120019</sf:npm>
+        <sf:judul>Implementasi Pemodelan Ontologi dan Pembangunan Web Semantik Pada Studi Kasus Pencarian Buku di Perpustakaan Digital (Informatics E-Library)</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data120008">
+        <sf:nama>Amir Mujahiduddien</sf:nama>
+        <sf:npm>140810120008</sf:npm>
+        <sf:judul>Pemanfaatan Augmented Reality Sebagai Sarana Pembelajaran Sistem Gerak Tubuh Manusia</sf:judul>
+        <sf:peminatan>Artificial Intelligence</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data120013">
+        <sf:nama>Jansen Giovanni</sf:nama>
+        <sf:npm>140810120013</sf:npm>
+        <sf:judul>Analisis dan Perancangan Jaringan Wireless di Gedung PPBS Unpad Untuk Mengoptimalkan Peletakan Posisi Access Point</sf:judul>
+        <sf:peminatan>Jaringan Komputer</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data120005">
+        <sf:nama>Muhammad Iqbal</sf:nama>
+        <sf:npm>140810120005</sf:npm>
+        <sf:judul>Pembangunan Aplikasi Navigasi Dalam Gedung D PPBS Universitas Padjajdaran Menggunakan Model Pemetaan Indoor Geolocation Berbasis Android</sf:judul>
+        <sf:peminatan>Jaringan Komputer</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130021">
+        <sf:nama>Anaz Tazcia Lestari</sf:nama>
+        <sf:npm>140810130021</sf:npm>
+        <sf:judul>Implementasi Algoritma Spyware Dalam Program Aplikasi Remote Access</sf:judul>
+        <sf:peminatan>Jaringan Komputer</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130008">
+        <sf:nama>Rahmatullah Arrizal P.</sf:nama>
+        <sf:npm>140810130008</sf:npm>
+        <sf:judul>Perhitungan Jumlah Kendaraan di Jalan Tol Menggunakan Metode Image Subtractingg</sf:judul>
+        <sf:peminatan>Artificial Intelligence</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data120027">
+        <sf:nama>Zahra Solihah</sf:nama>
+        <sf:npm>140810120027</sf:npm>
+        <sf:judul>Rancang Bangun Sistem Pakar untuk Mendiagnosa Kondisi Gangguan Kepribadian Menggunakan Metode Forward Chaining Berbasis Mobile Android</sf:judul>
+        <sf:peminatan>Artificial Intelligence</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data120012">
+        <sf:nama>Ichsan Alfiansyah</sf:nama>
+        <sf:npm>140810120012</sf:npm>
+        <sf:judul>Klasifikasi Anomali Trafik Jaringan Unpad Jatinangor Menggunakan Naive Bayes Classifier: Studi Kasus Data Trafik Periode April-Mei 2016</sf:judul>
+        <sf:peminatan>Jaringan Komputer</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130046">
+        <sf:nama>Fadel Muhammad P</sf:nama>
+        <sf:npm>140810130046</sf:npm>
+        <sf:judul>Analisis Pengaruh Firewall Terhadap Kinerja Komputer Dalam Mengurangi Dampak Serangan DoS</sf:judul>
+        <sf:peminatan>Jaringan Komputer</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130036">
+        <sf:nama>Rahadian Hilmy</sf:nama>
+        <sf:npm>140810130036</sf:npm>
+        <sf:judul>Implementasi Algoritma Kriptografi AES Dengan Model ECB Pada Aplikasi LAN Messenger</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130045">
+        <sf:nama>Rizky Maulana Rachyan</sf:nama>
+        <sf:npm>140810130045</sf:npm>
+        <sf:judul>Membangun Program Aplikasi CCTV Berbasis Smartphone Android Untuk Menghitung Jumlah Pelanggar Lajur Kendaraan Studi Kasus di Universitas Padjadjaran</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130041">
+        <sf:nama>Andrean Taufik</sf:nama>
+        <sf:npm>140810130041</sf:npm>
+        <sf:judul>Analisis Filtering Email SPAM Menggunakan Metode Naive Bayesian</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130053">
+        <sf:nama>Albertus Aditya Wisnu Whardana</sf:nama>
+        <sf:npm>140810130053</sf:npm>
+        <sf:judul>Pengembangan Aplikasi Travelling Salesman Problem Dengan Optimasi Robust (Studi Kasus Pada Pekan Paralimpik Nasional XV 2016)</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130006">
+        <sf:nama>Sopyan Mulyana</sf:nama>
+        <sf:npm>140810130006</sf:npm>
+        <sf:judul>Pengenalan Gestur Tangan Berbasis Warna Kulit untuk Penerjemahan Bahasa Isyarat</sf:judul>
+        <sf:peminatan>Artificial Intelligence</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130035">
+        <sf:nama>Wahyudin Buca Kalauw</sf:nama>
+        <sf:npm>140810130035</sf:npm>
+        <sf:judul>Implementasi Algoritma K-Means Clustering untuk Menentukan Prioritas Pembangunan Pendidikan di Provinsi Jawa Barat</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130039">
+        <sf:nama>Mochamad Edwin Lokyta</sf:nama>
+        <sf:npm>140810130039</sf:npm>
+        <sf:judul>Pengembangan Aplikasi Mobile Manajemen Aset dengan QR-Code</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130012">
+        <sf:nama>Febrian Suhendra Citromulyo</sf:nama>
+        <sf:npm>140810130012</sf:npm>
+        <sf:judul>Manajemen Traffic Jaringan Internet Berbasis Web Dengan Protocol SNMP (Studi Kasus di Lab SIM Departemen Ilmu Komputer Universitas Padjadjaran)</sf:judul>
+        <sf:peminatan>Jaringan Komputer</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130016">
+        <sf:nama>Muhammad Fadly Rahman</sf:nama>
+        <sf:npm>140810130016</sf:npm>
+        <sf:judul>Membangun Automatic Facial Recognition System Menggunakan Metode Euclidean Distance Sebagai Alat untuk Mengenali Kondisi Emosi Seseorang</sf:judul>
+        <sf:peminatan>Artificial Intelligence</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130019">
+        <sf:nama>Anggie Audina Ikhwanudin</sf:nama>
+        <sf:npm>140810130019</sf:npm>
+        <sf:judul>Perancangan dan Implementasi Sistem Informasi Sidang Tilang Pada Pengadilan Negeri Indramayu Berbasis Web</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130022">
+        <sf:nama>Yusuf Septiananda</sf:nama>
+        <sf:npm>140810130022</sf:npm>
+        <sf:judul>Pengembangan Aplikasi Sistem Pemantauan dan Evaluasi Proyek</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130023">
+        <sf:nama>Hilga Dwiana Hardani</sf:nama>
+        <sf:npm>140810130023</sf:npm>
+        <sf:judul>Analisis Sentimen pada Review Film Menggunakan Text Mining dengan Menggunakan Naive Bayes Classifier</sf:judul>
+        <sf:peminatan>Artificial Intelligence</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130027">
+        <sf:nama>Agung Kurniati</sf:nama>
+        <sf:npm>140810130027</sf:npm>
+        <sf:judul>Pengembangan Sistem Pendukung Keputusan Pemilihan Kelompok Tani Penerima Bantuan Pertanian Menggunakan Metode Analytical Hierarchy Process Berbasis Web</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://skripsifinder.com/data130060">
+        <sf:nama>Hilmi Wijaksana Wahyudi</sf:nama>
+        <sf:npm>140810130060</sf:npm>
+        <sf:judul>Penerapan K-Optimal Pada Algoritma K-Nearest Neighbor (KKN) Untuk Klasifikasi Dan Prediksi Masa Studi Mahasiswa FMIPA Unpad</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130051">
+        <sf:nama>Raynaldo Kristiadi Sola Gratia</sf:nama>
+        <sf:npm>140810130051</sf:npm>
+        <sf:judul>Pengujian Keamanan Wireless Access Point Dengan Protokol Keamanan WEP, WPA, dan WPA2 Menggunakan Aircrack-ng Pada Sistem Operasi Kali Linux</sf:judul>
+        <sf:peminatan>Jaringan Komputer</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130049">
+        <sf:nama>M. Fathurrahman</sf:nama>
+        <sf:npm>140810130049</sf:npm>
+        <sf:judul>Pengenalan Wajah Berbasis Android Menggunakan Metode Principal Component Analysis</sf:judul>
+        <sf:peminatan>Artificial Intelligence</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130047">
+        <sf:nama>Alvin Niza Aulia</sf:nama>
+        <sf:npm>140810130047</sf:npm>
+        <sf:judul>Sistem Pendukung Keputusan Investasi Properti Berbasis Web Menggunakan Metode Analytical Hierarchy Process</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130056">
+        <sf:nama>Muhammad Iqbal Pandailing Widodo</sf:nama>
+        <sf:npm>140810130056</sf:npm>
+        <sf:judul>Perbandingan Haar Cascade Classification Dan LBP Cascade Classification Sebagai Hand Gesture Recognition Dalam Aplikasi Virtual Reality</sf:judul>
+        <sf:peminatan>Artificial Intelligence</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130013">
+        <sf:nama>Rezky Pratomo</sf:nama>
+        <sf:npm>140810130013</sf:npm>
+        <sf:judul>Implementasi Perbandingan Metode Fuzzy Analytical Hierarchy Process Dan Simple Additive Weighting Dalam Sistem Pendukung Keputusan Pemilihan Pengawas Sekolah Terbaik Di Kabupaten Tanjung Jabung Timur</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130003">
+        <sf:nama>Anne Devia</sf:nama>
+        <sf:npm>140810130003</sf:npm>
+        <sf:judul>Data Mining Untuk Clustering Ethnoinformatika Penamaan Kampung Di Kabupaten Bandung</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130001">
+        <sf:nama>Carinna Sunny Budiono Putri</sf:nama>
+        <sf:npm>140810130001</sf:npm>
+        <sf:judul>Naive Bayes Classifier Untuk Kategori Berita Bahasa Indonesia Berbasis Web</sf:judul>
+        <sf:peminatan>Artificial Intelligence</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data120009">
+        <sf:nama>Fath Imtiaz</sf:nama>
+        <sf:npm>140810120009</sf:npm>
+        <sf:judul>Penerapan Data Mining Dengan Teknik Semi-Supervised Clustering Untuk Mengelompokan Statistik Pemain Sepak Bola Berdasarkan Posisi Dalam Formasi</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130024">
+        <sf:nama>Asep Sudrajat</sf:nama>
+        <sf:npm>140810130024</sf:npm>
+        <sf:judul>Sistem Informasi Etnoinformatika Penamaan Dusun Dalam Mengetahui Karakteristik Masyarakat Ciamis Berbasis Website</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130002">
+        <sf:nama>Ai Siti Sobariah</sf:nama>
+        <sf:npm>140810130002</sf:npm>
+        <sf:judul>Perancangan Dan Implementasi Sistem Informasi Etnoinformatika Penamaan Kampung Untuk Melihat Karakteristik Kebudayaan Sunda Di Kabupaten Tasikmalaya Berbasis Web</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130004">
+        <sf:nama>Linda Angela Putri</sf:nama>
+        <sf:npm>140810130004</sf:npm>
+        <sf:judul>Perancangan Dan Implementasi Sistem Informasi Etnoinformatika Penamaan Kampung Di Kabupaten Garut Berbasis Java</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130007">
+        <sf:nama>Rizki Fitrah Mutaqin</sf:nama>
+        <sf:npm>140810130007</sf:npm>
+        <sf:judul>Aplikasi Sistem Pendukung Keputusan Dalam Menentukan Kenaikan Pangkat Dan Promosi Jabatan Struktural Di Kabupaten Garut Menggunakan Metode Topsis</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130005">
+        <sf:nama>Henry Aulia Rahman</sf:nama>
+        <sf:npm>140810130005</sf:npm>
+        <sf:judul>Sistem Informasi Perpustakaan Berbasis Web Di SMA Darul Falah Cihampelas Bandung Barat</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130014">
+        <sf:nama>Edwin Ginanjar Sonjaya</sf:nama>
+        <sf:npm>140810130014</sf:npm>
+        <sf:judul>Metode Fuzzy Analytical Hierarchy Process Untuk Pemilihan Rayon Terbaik Dalam Perspektif Pelanggan Pada PT. PLN (Persro) Area Cirebon</sf:judul>
+        <sf:peminatan>Artificial Intelligence</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data120010">
+        <sf:nama>Ivan Alexander Yunadi</sf:nama>
+        <sf:npm>140810120010</sf:npm>
+        <sf:judul>Pemanfaatan Kartu Tanda Penduduk Elektronik Sebagai Sistem Informasi Absensi Kelas Di Program Studi Teknik Informatika Fakultas MIPA Universitas Padjadjaran</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130030">
+        <sf:nama>Muhamad Ilham D.</sf:nama>
+        <sf:npm>140810130030</sf:npm>
+        <sf:judul>Program Rute Terpendek UNPAD Jatinangor Menggunakan Algoritma DIKSTRA</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130032">
+        <sf:nama>Nero Gading Laksamana</sf:nama>
+        <sf:npm>140810130032</sf:npm>
+        <sf:judul>Pemanfaatan Kartu Tanda Mahasiswa Untuk Autentikasi Dalam Pengembangan Sistem Informasi Akademik Universitas Padjadjaran Berbasis Android</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130061">
+        <sf:nama>Rifky Fachry Muhamad</sf:nama>
+        <sf:npm>140810130061</sf:npm>
+        <sf:judul>Pengembangan Aplikasi Berbasis Chrome Extension Untuk Mengakses Browser Game Kantai Collection Dengan Menggunakan Metode IP Spoofing</sf:judul>
+        <sf:peminatan>Jaringan Komputer</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130052">
+        <sf:nama>Tiara Rizki Maharani</sf:nama>
+        <sf:npm>140810130052</sf:npm>
+        <sf:judul>Sistem Pendukung Keputusan Dalam Menentukan Atlet Taekwondo Untuk Mengikuti Kejuaraan Dengan Metode Analytical Hierarchy Process (AHP)</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130018">
+        <sf:nama>Selano Putra</sf:nama>
+        <sf:npm>140810130018</sf:npm>
+        <sf:judul>Penerapan Data Mining Algoritma K-Means Clustering Dalam Segmentasi Wilayah Nasabah Permohonan Kredit Untuk Membantu Strategi Pemasaran PT. BPR Ganto Nagari 1854</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data120016">
+        <sf:nama>Isa Abdul Muhyi</sf:nama>
+        <sf:npm>140810120016</sf:npm>
+        <sf:judul>Sistem Informasi Tracer Study Berbasis Web Menggunakan Framework Laravel</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130010">
+        <sf:nama>Mauludy Nugrahani</sf:nama>
+        <sf:npm>140810130010</sf:npm>
+        <sf:judul>Aplikasi Sistem Pendukung Keputusan Prioritas Pembangunan Kesehatan Di Provinsi Jawa Barat Menggunakan Metode Fuzzy Analytical Hierarchy Process</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130040">
+        <sf:nama>Irdan Anshari</sf:nama>
+        <sf:npm>140810130040</sf:npm>
+        <sf:judul>Analisis Dan Perbandingan Enkripsi Dekripsi Pada File Menggunakan Metode AES Rijndael Dan 3DES</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130055">
+        <sf:nama>Akmaluddin Fadhilah</sf:nama>
+        <sf:npm>140810130055</sf:npm>
+        <sf:judul>Sistem Informasi Monitoring Aset Berbasis Web Pada Departemen IT Santosa Hospital Bandung Kopo</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130029">
+        <sf:nama>Fadhli Aufar Syahmi</sf:nama>
+        <sf:npm>140810130029</sf:npm>
+        <sf:judul>Analisis Aplikasi Peringkasan Teks Otomatis Menggunakan Metode Term Frequency Inverse Document Frequency (TF-IDR)</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130059">
+        <sf:nama>Aldi Maulana</sf:nama>
+        <sf:npm>140810130059</sf:npm>
+        <sf:judul>Sistem Pendukung Keputusan Pemilihan Smartphone Menggunakan Metode Fuzzy Analytical Hierarchy Process Berbasis Web</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data120011">
+        <sf:nama>O. Ginanjar</sf:nama>
+        <sf:npm>140810120011</sf:npm>
+        <sf:judul>Desain Dan Analisis Pengembangan Program Aplikasi IDMS Dengan Metodologi Scrum Framework</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130038">
+        <sf:nama>Firdaus Perdana Yusuf</sf:nama>
+        <sf:npm>140810130038</sf:npm>
+        <sf:judul>Simulasi Eksplorasi Hutan Pada Malam Hari Berbasis Virtual Reality Menggunakan Game Engine Unity 3D</sf:judul>
+        <sf:peminatan>Artificial Intelligence</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130042">
+        <sf:nama>Ardhi Rizki Harahap</sf:nama>
+        <sf:npm>140810130042</sf:npm>
+        <sf:judul>Sistem Informasi Mobile Berbasis Web Service Untuk Pemantauan Lokasi Perangkat Android (Studi Kasus Bus Damri Kota Bandung)</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130034">
+        <sf:nama>Dion Alamsah</sf:nama>
+        <sf:npm>140810130034</sf:npm>
+        <sf:judul>Analisis Performa Algoritma Kriptografi AES Untuk Citra Digital Pada Berbagai Perangkat Android</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130025">
+        <sf:nama>Muhammad Adamul Khair</sf:nama>
+        <sf:npm>140810130025</sf:npm>
+        <sf:judul>Implementasi Sistem Pemungutan Suara Elektronik Dengan Menggunakan Teknologi NFC (Near Field Communication) Pada Platform Android (Studi Kasus Pemilihan Ketua HIMATIF FMIPA Unpad)</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130048">
+        <sf:nama>Fieny Mughnisari S</sf:nama>
+        <sf:npm>140810130048</sf:npm>
+        <sf:judul>Sistem Pendukung Keputusan Berbasis Fuzzy Analytical Hierarchy Process Untuk Penentuan Kelayakan Penerimaan Kredit (Studi Kasus : Koperasi Keluarga Besar Dinas Pendapatan (KKBD) Provinsi Jawa Barat)</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130009">
+        <sf:nama>Farrah Sania Abdilla</sf:nama>
+        <sf:npm>140810130009</sf:npm>
+        <sf:judul>Perbandingan Sistem Pengambilan Keputusan Pemilihan Distributor Pada Perusahaan Menggunakan Metode AHP Dan Metode SMART</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130031">
+        <sf:nama>Eben Ezer Naibaho</sf:nama>
+        <sf:npm>140810130031</sf:npm>
+        <sf:judul>Aplikasi Formulasi Kolam Ikan Tertutup Dengan Metode Regresi</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://skripsifinder.com/data130054">
+        <sf:nama>Ahmad Dinan Kurnia</sf:nama>
+        <sf:npm>140810130054</sf:npm>
+        <sf:judul>Aplikasi Pencarian File Duplikasi Menggunakan Metode Message Digest 5 Hash</sf:judul>
+        <sf:peminatan>Sistem Informasi</sf:peminatan>
+        <sf:tahun>2017</sf:tahun>
+    </rdf:Description>
+
+
+</rdf:RDF>
