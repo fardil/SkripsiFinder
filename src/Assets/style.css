@@ -1,9 +1,14 @@
+.WebContainer{
+  width: 100%;
+  height: auto;
+}
+
 .container {
     overflow: hidden;
 }
 
 .header {
-    padding: 30px;
+    padding: 20px;
     text-align: center;
     background: #1abc9c;
     color: white;
@@ -59,7 +64,7 @@
 a#skripsi{
   font-weight: bold;;
   margin-left: 15px;
-  font-size: 15pt;
+  font-size: 18pt;
 }
 
 .result{
@@ -75,4 +80,20 @@ footer{
   margin-top: 60px;
   background-color: #1abc9c;
   color: whitesmoke;
+}
+
+.md-form{
+  width: 120%;
+  display: flex;
+  align-items: center;
+  transform: translate(40%, 50%);
+  margin-top: 50px;         
+}
+
+.dropdown#tahun{
+  transform: translate(28%, -50%); 
+}
+
+.dropdown#peminatan{
+  transform: translate(37%, -150%); 
 }
