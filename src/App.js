@@ -3,7 +3,7 @@ import axios from 'axios';
 import qs from 'qs';
 import './Assets/style.css';
 
-import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { MDBCol, MDBFormInline, MDBIcon } from "mdbreact";
 
 import { BrowserRouter as Router, Route } from "react-router-dom";
@@ -31,7 +31,7 @@ function App() {
     const queryData = {
       query:
         `PREFIX sf: <http://skripsifinder.com/skripsi#>
-  
+
         SELECT ?judul ?nama ?npm ?peminatan ?tahun 
         WHERE
         {
@@ -68,11 +68,11 @@ function App() {
   const formatter = (skripsi, index) => {
     return {
       "id": index,
-      "judul": skripsi.name.value,
-      "nama": skripsi.category.value,
-      "npm": skripsi.platform.value,
-      "peminatan": skripsi.link.value,
-      "tahun": skripsi.desc.value
+      "judul": skripsi.judul.value,
+      "nama": skripsi.nama.value,
+      "npm": skripsi.npm.value,
+      "peminatan": skripsi.peminatan.value,
+      "tahun": skripsi.tahun.value
     }
   }
 
@@ -86,7 +86,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Route exact path="/homepage" component={homepage}></Route>
+        <Route exact path="/" component={homepage}></Route>
         <Route exact path="/login" component={login}></Route>
         <Route exact path="/skripsi" component={skripsi}></Route>
       </Router>

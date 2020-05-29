@@ -8,7 +8,7 @@
 }
 
 .header {
-    padding: 20px;
+    padding: 40px;
     text-align: center;
     background: #1abc9c;
     color: white;
@@ -26,20 +26,6 @@
 
 .input-group-append{
     background-color: #E4DFDA;
-}
-
-@media screen and (max-width: 700px) {
-    .row {   
-      flex-direction: column;
-    }
-}
-  
-  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-    .navbar a {
-      float: none;
-      width: 100%;
-    }
 }
 
 .col-md-10{
@@ -82,20 +68,36 @@ footer{
   color: whitesmoke;
 }
 
-.md-form{
-  width: 120%;
-  display: flex;
-  align-items: center;
-  transform: translate(30%, 50%);
-  margin-top: 50px;         
+form{
+  margin-top: 20px;
+  transform: translateY(15px);
 }
 
-.dropdown#tahun{
-  margin-inline-start: 550px;
-  transform: translateY(-10px); 
+.form-input, .dropdown{
+  /* margin-inline-start: 550px;
+  transform: translateY(-10px);  */
+  width: 600px;
+  margin-left: 350px;
 }
 
-.dropdown#peminatan{
+.row{
+  margin-top: 10px;
+}
+
+.button#search{
+  margin-top: 10px;
+  margin-left: 550px;
+  width: 200px;
+}
+
+/* .dropdown#peminatan{
   margin-inline-start: 600px;
-  transform: translateX(10px); 
+  transform: translateX(10px);
+  position: relative; 
+} */
+
+footer{
+  background-color: #1abc9c ;
+  padding: 10px;
+  transform: translateY(28px);
 }
