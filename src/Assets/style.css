@@ -50,7 +50,7 @@
 a#skripsi{
   font-weight: bold;;
   margin-left: 15px;
-  font-size: 18pt;
+  font-size: 20pt;
 }
 
 .result{
@@ -63,9 +63,10 @@ h5{
 }
 
 footer{
-  margin-top: 60px;
   background-color: #1abc9c;
   color: whitesmoke;
+  padding: 20px;
+  margin-top: 50px;
 }
 
 form{
@@ -95,7 +96,7 @@ form{
   transform: translateX(10px);
   position: relative; 
 } */
-
+/* 
 footer{
   background-color: #1abc9c ;
   padding: 10px;
@@ -103,10 +104,10 @@ footer{
 .dropdown#peminatan{
   margin-inline-start: 690px;
   transform: translateX(10px); 
-}
+} */
 
 /* css login */
-.container{
+.container#login{
   height:480px;
   margin-top: 40px;
   margin-bottom: 50px;
@@ -166,14 +167,14 @@ img{
   margin-bottom: 50px;
 }
 
-p{
+p#judul{
   font-weight: bold;;
   margin-left: 15px;
   font-size: 18pt;
   color: white;
 }
 
-article{
+article#abstrak{
   margin-top: 15px;
   padding: 3px;
   font-style: italic;

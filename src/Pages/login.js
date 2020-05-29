@@ -23,7 +23,7 @@ return (
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
                 <li className="nav-item ">
-                    <a className="nav-link" href="homepage">Home</a>
+                    <a className="nav-link" href="/">Home</a>
                 </li>
                 <li className="nav-item active">
                     <a className="nav-link" href="login">Login</a>
@@ -33,7 +33,7 @@ return (
       </nav>
 
     {/* container */}
-        <div className="container">
+        <div className="container" id="login">
             <MDBRow>
                 <MDBCol md="4">
                     <h1 className="welcome"> 

@@ -18,7 +18,7 @@ return (
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
                 <li className="nav-item">
-                    <a className="nav-link" href="homepage">Home</a>
+                    <a className="nav-link" href="/">Home</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="login">Login</a>
@@ -28,14 +28,14 @@ return (
       </nav>
 
       {/* container */}
-      <div className="container">
+      <div className="container" id="login">
             <MDBRow>
                 <MDBCol md="4">
                    <img className="imgSkripsi" src='./formatskripsi.jpg'></img>
                 </MDBCol>
                 <MDBCol md="8">
                    <MDBRow>
-                       <p>
+                       <p id="judul">
                            Judul Skripsi
                        </p>
                    </MDBRow>
@@ -44,7 +44,7 @@ return (
                    <MDBCol md="3">Bidang Minat</MDBCol>
                    <MDBCol md="3">Tahun</MDBCol>
                    </MDBRow>
-                   <article>
+                   <article id="abstrak">
                      Abstrak dari skripsi
                     </article>
                 </MDBCol>
