@@ -5,14 +5,13 @@ Skripsi Finder adalah aplikasi untuk membantu menemukan skripsi mahasiswa jurusa
 ### Installation
 
 - Pastikan sudah menginstall NodeJs
-- Clone project ini dengan mengetik perintah di bawah pada command prompt :
-```
+- Clone project ini dengan mengetik `
 $ git clone https://github.com/fardil/SkripsiFinder.git
-```
+` pada command prompt 
 - Ketik 
-```bash
+`
 $ npm start
-```
+`
 - Web akan terbuka di browser 
 
 ### Kelompok
