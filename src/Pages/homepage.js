@@ -18,10 +18,10 @@ return (
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
                 <li className="nav-item active">
-                    <a className="nav-link" href="#">Home</a>
+                    <a className="nav-link" href="homepage">Home</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Login</a>
+                    <a className="nav-link" href="login">Login</a>
                 </li>
             </ul>
         </div>
@@ -71,7 +71,7 @@ return (
               Hasil Pencarian Skripsi
           </h5>
         </div>
-        <div class="container">    
+        <div class="container1">    
           <div class="col-md-10">
             <div class="row">
               <a href="Skripsi.html">
@@ -85,7 +85,7 @@ return (
             </div>
           </div>
         </div>
-        <div class="container">    
+        <div class="container1">    
           <div class="col-md-10">
             <div class="row">
               <a href="Skripsi.html">

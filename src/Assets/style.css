@@ -3,7 +3,7 @@
   height: auto;
 }
 
-.container {
+.container1{
     overflow: hidden;
 }
 
@@ -96,6 +96,54 @@ footer{
 }
 
 .dropdown#peminatan{
-  margin-inline-start: 600px;
+  margin-inline-start: 690px;
   transform: translateX(10px); 
 }
+
+.container{
+  height:450px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  background-color:#1abc9c;
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+}
+
+img{
+  width: 577; 
+  height: 433;
+  margin-top: 80px;
+  margin-left: -200px;
+}
+
+.welcome{
+  transform: rotate(-90deg);
+  margin-left: -250px;
+  color: white;
+}
+
+.btn-login{
+  justify-content: flex-end;
+  display: flex;
+  margin-bottom: 25px;
+  margin-top: 30px;
+  font-size: 24px;
+  background-color: blue;
+  color: white;
+
+}
+
+.form-word{
+  margin-left: 0px;
+  margin-top: -90px;
+  font-size: 25px;
+  color: white;
+}
+
+.form-group{
+  margin-top: 120px;
+  width: 100px;
+}
+
+
