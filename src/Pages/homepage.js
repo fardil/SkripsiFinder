@@ -3,11 +3,7 @@ import Fade from "react-reveal/Fade";
 import axios from 'axios';
 import qs from 'qs';
 import { MDBCol, MDBFormInline, MDBIcon } from "mdbreact";
-
 import 'bootstrap/dist/css/bootstrap.css';
-// import Dropdown from 'react-dropdown';
-// import 'react-dropdown/style.css';
-// import DropdownButton from 'react-dropdown-button'
 
 export default function homepage(){
 return (
@@ -40,36 +36,32 @@ return (
           {/* Search Form  */}
           <MDBCol md="6" >
             <MDBFormInline className="md-form">
-              <input className="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search" aria-label="Search" />
+              <input className="form-control form-control-sm ml-3 w-75" type="text" placeholder="Masukkan skripsi yang ingin dicari" aria-label="Search" />
               <div className="input-group-append">
-                <button className="btn btn-outline-secondary" type="button">Search</button>
+                <button as="input" type="button" value="Submit" active>Search</button>
               </div>
             </MDBFormInline>
           </MDBCol>
 
           {/* Filter Tahun */}
           <div className="dropdown" id="tahun">
-              <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Tahun
-              </button>
-              <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a className="dropdown-item" href="#">2016</a>
-                <a className="dropdown-item" href="#">2017</a>
-                <a className="dropdown-item" href="#">2018</a>
-                <a className="dropdown-item" href="#">2019</a>
-              </div>
+              <select id = "dropdown">
+                <option value="N/A">Tahun</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+            </select>
           </div>
 
           {/* Filter Peminatan */}
           <div className="dropdown" id="peminatan">
-              <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Bidang Minat
-              </button>
-              <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a className="dropdown-item" href="#">Sistem Informasi</a>
-                <a className="dropdown-item" href="#">Jaringan Komputer</a>
-                <a className="dropdown-item" href="#">Artificial Intelligence</a>
-              </div>
+              <select id = "dropdown">
+                <option value="N/A">Bidang Minat</option>
+                <option value="SIM">Sistem Informasi Multimedia</option>
+                <option value="Jarkom">Jaringan Komputer</option>
+                <option value="AI">Artificial Intelligence</option>
+            </select>
           </div>
         </div>
         

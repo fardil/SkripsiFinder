@@ -86,14 +86,16 @@ footer{
   width: 120%;
   display: flex;
   align-items: center;
-  transform: translate(40%, 50%);
+  transform: translate(30%, 50%);
   margin-top: 50px;         
 }
 
 .dropdown#tahun{
-  transform: translate(28%, -50%); 
+  margin-inline-start: 550px;
+  transform: translateY(-10px); 
 }
 
 .dropdown#peminatan{
-  transform: translate(37%, -10%); 
+  margin-inline-start: 600px;
+  transform: translateX(10px); 
 }
