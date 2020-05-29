@@ -3,7 +3,7 @@
   height: auto;
 }
 
-.container {
+.container1{
     overflow: hidden;
 }
 
@@ -100,4 +100,88 @@ footer{
   background-color: #1abc9c ;
   padding: 10px;
   transform: translateY(28px);
+.dropdown#peminatan{
+  margin-inline-start: 690px;
+  transform: translateX(10px); 
+}
+
+/* css login */
+.container{
+  height:480px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  background-color:#1abc9c;
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+}
+
+img{
+  width: 577; 
+  height: 433;
+  margin-top: 80px;
+  margin-left: -200px;
+}
+
+.welcome{
+  transform: rotate(-90deg);
+  margin-left: -250px;
+  color: white;
+}
+
+.btn-login{
+  justify-content: flex-end;
+  display: flex;
+  margin-bottom: 25px;
+  margin-top: 30px;
+  font-size: 24px;
+  background-color: blue;
+  color: white;
+
+}
+
+.form-word{
+  margin-left: 0px;
+  margin-top: -90px;
+  font-size: 25px;
+  color: white;
+}
+
+.form-group{
+  margin-top: 120px;
+  width: 100px;
+}
+
+/* css skripsi */
+
+.col-md-8{
+  margin-top: 30px;
+  padding: 15px;
+}
+
+.btn-holder {
+  justify-content: flex-end;
+  display: flex;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+p{
+  font-weight: bold;;
+  margin-left: 15px;
+  font-size: 18pt;
+  color: white;
+}
+
+article{
+  margin-top: 15px;
+  padding: 3px;
+  font-style: italic;
+}
+
+.imgSkripsi{
+  width: 300px; 
+  height: 400px;
+  margin-top: 35px;
+  margin-left: 10px;
 }
