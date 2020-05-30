@@ -31,7 +31,6 @@ export default function Homepage(){
               sf:peminatan    ?peminatan;
               sf:tahun    ?tahun;
           FILTER regex(?judul, "${value.input}")
-          FILTER regex(?npm, "${value.input}")
       }`
   };
 
