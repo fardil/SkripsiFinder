@@ -5,12 +5,12 @@ import qs from 'qs';
 import { MDBCol, MDBFormInline, MDBIcon, MDBRow } from "mdbreact";
 
 import 'bootstrap/dist/css/bootstrap.css';
-import homepage from './homepage';
+import Homepage from './Homepage';
 // import Dropdown from 'react-dropdown';
 // import 'react-dropdown/style.css';
 // import DropdownButton from 'react-dropdown-button'
 
-export default function login(){
+export default function Login(){
 return (
     <body>
       {/* Navbar */}

@@ -1,0 +1,11 @@
+PREFIX sf:<http://skripsifinder.com/skripsi#>
+
+SELECT ?judul ?nama ?npm ?peminatan ?tahun 
+        WHERE
+        { ?d
+          	    sf:judul    ?judul ;
+                sf:nama    ?nama ;
+                sf:npm    ?npm ;
+                sf:peminatan    ?peminatan ;
+                sf:tahun    ?tahun ;
+        }

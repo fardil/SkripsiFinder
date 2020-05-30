@@ -5,7 +5,7 @@ import qs from 'qs';
 import { MDBCol, MDBFormInline, MDBIcon, MDBRow } from "mdbreact";
 import 'bootstrap/dist/css/bootstrap.css';
 
-export default function skripsi(){
+export default function Skripsi(){
 return (
     <body>
       {/* Navbar */}

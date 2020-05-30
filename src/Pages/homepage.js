@@ -1,8 +1,80 @@
 import React, { useState } from 'react';
-// import { MDBCol, MDBFormInline, MDBIcon } from "mdbreact";
 import { Link } from "react-router-dom";
+import axios from 'axios';
+import qs from 'qs';
 
-export default function homepage(){
+export default function Homepage(){
+  
+  const [value, setValue] = useState({
+    skripsis: [],
+    input: ''
+  });
+
+  const getData = async () => {
+    const BASE_URL = "http://localhost:3030/skripsi-finder/query";
+
+    const headers = {
+      'Accept': 'application/sparql-results+json,*/*;q=0.9',
+      'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+  };
+
+  const queryData = {
+    query:
+      `PREFIX sf: <http://skripsifinder.com/skripsi#>
+
+      SELECT ?judul ?nama ?npm ?peminatan ?tahun 
+      WHERE
+      {
+        ?d    sf:judul    ?judul;
+              sf:nama    ?nama;
+              sf:npm    ?npm;
+              sf:peminatan    ?peminatan;
+              sf:tahun    ?tahun;
+          FILTER regex(?judul, "${value.input}")
+          FILTER regex(?npm, "${value.input}")
+      }`
+  };
+
+  try {
+    const { data } = await axios(BASE_URL, {
+      method: 'POST',
+      headers,
+      data: qs.stringify(queryData)
+    });
+    console.log(data);
+
+    // Convert Data
+    const formatted_data = data.results.bindings.map((skripsi, index) => formatter(skripsi, index));
+    console.log(formatted_data)
+
+    setValue({
+      ...value,
+      skripsis: formatted_data
+    });
+  } catch (err) {
+    console.error(err);
+  }
+}
+
+const formatter = (skripsi, index) => {
+  return {
+    "id": index,
+    "judul": skripsi.judul.value,
+    "nama": skripsi.nama.value,
+    "npm": skripsi.npm.value,
+    "peminatan": skripsi.peminatan.value,
+    "tahun": skripsi.tahun.value
+  }
+}
+
+const handleChange = event => {
+  setValue({
+    ...value,
+    'input': event.target.value
+  })
+}
+
+// Layout
 return (
     <body>
       {/* Navbar */}
@@ -37,6 +109,7 @@ return (
               className="form-input"
               placeholder="Masukkan skripsi yang ingin dicari"
               type="text"
+              onChange={handleChange}
             />
           </div>
           {/* Filter Tahun */}
@@ -46,7 +119,6 @@ return (
               <option value="2016">2016</option>
               <option value="2017">2017</option>
               <option value="2018">2018</option>
-              <option value="2019">2019</option>
             </select>
           </div>
           {/* Filter Peminatan */}
@@ -60,10 +132,11 @@ return (
           </div>
           <div className="row">
             <input
-                type="submit"
+                type="button"
                 className="button"
                 id="search"
                 value="Search"
+                onClick={getData}
             />
           </div>
         </form>
@@ -75,20 +148,10 @@ return (
             Hasil Pencarian Skripsi
         </h5>
       </div>
-      <div class="container">    
-        <div class="col-md-10">
-          <div class="row">
-            <a href="Skripsi">
-                Judul Skripsi
-            </a>
-          </div>
-          <div class="row">
-            <div class="col-md-5">Penulis</div>
-            <div class="col-md-3">Bidang Minat</div>
-            <div class="col-md-3">Tahun</div>
-          </div>
-        </div>
+      <div>
+          {value.skripsis.map((item, i) => <li key={i}>{item.judul}</li>)}
       </div>
+
       <div class="container">    
         <div class="col-md-10">
           <div class="row">
@@ -97,9 +160,18 @@ return (
             </a>
           </div>
           <div class="row">
-            <div class="col-md-5">Penulis</div>
-            <div class="col-md-3">Bidang Minat</div>
-            <div class="col-md-3">Tahun</div>
+            <div class="col-md-5">
+            {value.skripsis.map((item, i) => <li key={i}>{item.nama}</li>)}
+            </div>
+            <div class="col-md-3">
+            {value.skripsis.map((item, i) => <li key={i}>{item.npm}</li>)}  
+            </div>
+            <div class="col-md-3">
+            {value.skripsis.map((item, i) => <li key={i}>{item.peminatan}</li>)}
+            </div>
+            <div class="col-md-3">
+            {value.skripsis.map((item, i) => <li key={i}>{item.tahun}</li>)}
+            </div>
           </div>
         </div>
       </div>
