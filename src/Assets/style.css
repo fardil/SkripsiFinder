@@ -41,7 +41,7 @@
   margin-left: 1px;
 }
 
-.col-md-3{
+.col-md-2{
   padding: 5px;
   margin-top: 10px;
   margin-left: 15px;
@@ -66,7 +66,7 @@ footer{
   background-color: #1abc9c;
   color: whitesmoke;
   padding: 20px;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 form{
@@ -91,20 +91,6 @@ form{
   width: 200px;
 }
 
-/* .dropdown#peminatan{
-  margin-inline-start: 600px;
-  transform: translateX(10px);
-  position: relative; 
-} */
-/* 
-footer{
-  background-color: #1abc9c ;
-  padding: 10px;
-  transform: translateY(28px);
-.dropdown#peminatan{
-  margin-inline-start: 690px;
-  transform: translateX(10px); 
-} */
 
 /* css login */
 .container#login{

@@ -73,6 +73,32 @@ const handleChange = event => {
   })
 }
 
+
+const content = value.skripsis.map((skripsi) =>
+  <div className="container">
+    <div key={skripsi.id}>
+      <div className="col-md-10">
+        <a href="Skripsi">{skripsi.judul}</a>
+        <div class="row">
+          <div class="col-md-5">
+            {skripsi.nama}
+          </div>
+          <div class="col-md-2">
+            {skripsi.npm}  
+          </div>
+          <div class="col-md-2">
+            {skripsi.peminatan}
+          </div>
+          <div class="col-md-2">
+            {skripsi.tahun}
+          </div>
+        </div>  
+      </div>
+    </div>
+  </div>
+)
+
+
 // Layout
 return (
     <body>
@@ -106,23 +132,25 @@ return (
           <div className="row">
             <input
               className="form-input"
-              placeholder="Masukkan skripsi yang ingin dicari"
+              placeholder="Masukkan judul, penulis, atau npm penulis skripsi"
               type="text"
               onChange={handleChange}
             />
           </div>
+
           {/* Filter Tahun */}
           <div className="row">
-            <select className="dropdown" id="tahun">
+            <select className="dropdown" id="tahun" onChange={handleChange}>
               <option value="N/A">Tahun</option>
               <option value="2016">2016</option>
               <option value="2017">2017</option>
               <option value="2018">2018</option>
             </select>
           </div>
+
           {/* Filter Peminatan */}
           <div className="row">
-            <select className="dropdown" id="peminatan">
+            <select className="dropdown" id="peminatan" onChange={handleChange}>
               <option value="N/A">Bidang Minat</option>
               <option value="SIM">Sistem Informasi Multimedia</option>
               <option value="Jarkom">Jaringan Komputer</option>
@@ -146,32 +174,8 @@ return (
         <h5>
             Hasil Pencarian Skripsi
         </h5>
-      </div>
-      <div>
-          {value.skripsis.map((item, i) => <li key={i}>{item.judul}</li>)}
-      </div>
-
-      <div class="container">    
-        <div class="col-md-10">
-          <div class="row">
-            <a href="Skripsi">
-                Judul Skripsi
-            </a>
-          </div>
-          <div class="row">
-            <div class="col-md-5">
-            {value.skripsis.map((item, i) => <li key={i}>{item.nama}</li>)}
-            </div>
-            <div class="col-md-3">
-            {value.skripsis.map((item, i) => <li key={i}>{item.npm}</li>)}  
-            </div>
-            <div class="col-md-3">
-            {value.skripsis.map((item, i) => <li key={i}>{item.peminatan}</li>)}
-            </div>
-            <div class="col-md-3">
-            {value.skripsis.map((item, i) => <li key={i}>{item.tahun}</li>)}
-            </div>
-          </div>
+        <div>
+          {content}
         </div>
       </div>
 
