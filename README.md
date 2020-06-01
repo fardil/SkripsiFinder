@@ -38,6 +38,12 @@ Persistent
 `that is located in `
 .\SkripsiFinder\src\Database
 `
+## Features
+- Find thesis by title
+- Find thesis by student ID
+- Find thesis by author
+- Find thesis by specific field of study
+- Find thesis by year
 
 ## Group
 - Faradilla A - 140810170001
