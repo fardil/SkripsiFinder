@@ -33,10 +33,10 @@ return (
                 <MDBCol md="4">
                    <img className="imgSkripsi" src='./formatskripsi.jpg'></img>
                 </MDBCol>
-                <MDBCol md="8">
+                <MDBCol md="8" id="title">
                    <MDBRow>
-                       <p id="judul" src="Homepage">
-                           {Skripsi.judul}
+                       <p id="judul">
+                           Judul Skripsi
                        </p>
                    </MDBRow>
                    <MDBRow>
@@ -45,7 +45,9 @@ return (
                    <MDBCol md="3">Tahun</MDBCol>
                    </MDBRow>
                    <article id="abstrak">
-                     Abstrak dari skripsi
+                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                   voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                     </article>
                 </MDBCol>
             </MDBRow>

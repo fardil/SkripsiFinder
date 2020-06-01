@@ -4,28 +4,23 @@
 }
 
 .container1{
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .header {
-    padding: 40px;
-    text-align: center;
-    background: #1abc9c;
-    color: white;
-  }
+  padding: 40px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
   
   /* Increase the font size of the heading */
 .header h1 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
-.active-cyan-2 input.form-control[type=text]:focus:not([readonly]) {
-    border-bottom: 1px solid #4dd0e1;
-    box-shadow: 0 1px 0 0 #4dd0e1;
-}
-
-.input-group-append{
-    background-color: #E4DFDA;
+.judul{
+  font-weight: bold;
 }
 
 .col-md-10{
@@ -74,9 +69,25 @@ form{
   transform: translateY(15px);
 }
 
-.form-input, .dropdown{
-  /* margin-inline-start: 550px;
-  transform: translateY(-10px);  */
+input#titleBar{
+  width: 600px;
+}
+
+input#nameBar{
+  width: 300px;
+  margin-left: 255px;
+  margin-right: 0px;
+}
+
+input#npmBar{
+  width: 250px;
+  margin-right: 220px;
+}
+
+.dropdown{
+  margin-top: 10px;
+  margin-inline-start: 550px;
+  transform: translateY(-10px); 
   width: 600px;
   margin-left: 350px;
 }
@@ -91,6 +102,9 @@ form{
   width: 200px;
 }
 
+.grid-container{
+  grid-template-columns: auto auto;
+}
 
 /* css login */
 .container#login{
@@ -141,7 +155,7 @@ img{
 
 /* css skripsi */
 
-.col-md-8{
+.col-md-8#title{
   margin-top: 30px;
   padding: 15px;
 }

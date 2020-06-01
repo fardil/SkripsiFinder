@@ -74,12 +74,24 @@ const formatter = (skripsi, index) => {
   }
 }
 
-const handleChange = event => {
+const handleChangeTitle = event => {
   setValue({
     ...value,
-    'judul': event.target.value,
-    'nama': event.target.value,
-    'npm': event.target.value,    
+    'judul': event.target.value,  
+  });
+}
+
+const handleChangeNpm = event => {
+  setValue({
+    ...value,
+    'npm': event.target.value,  
+  });
+}
+
+const handleChangeName = event => {
+  setValue({
+    ...value,
+    'nama': event.target.value,  
   });
 }
 
@@ -101,7 +113,7 @@ const content = value.skripsis.map((skripsi) =>
   <div className="container">
     <div key={skripsi.id}>
       <div className="col-md-10">
-        <a href="Skripsi">{skripsi.judul}</a>
+        <div className="judul"><a href="Skripsi">{skripsi.judul}</a></div>
         <div class="row">
           <div class="col-md-5">
             {skripsi.nama}
@@ -151,20 +163,46 @@ return (
 
         {/* Search Form  */}
         <form>
-          <div className="row">
-            <input
-              setValue={value.input}
-              className="form-input"
-              placeholder="Masukkan judul, penulis, atau npm penulis skripsi"
-              type="text"
-              onChange={handleChange}
-            />
+          <div className="container">
+            <div className="row">
+              <div className="col">
+                <input
+                  setValue={value.judul}
+                  placeholder="Judul Skripsi"
+                  type="text"
+                  id="titleBar"
+                  onChange={handleChangeTitle}
+                />
+              </div>
+            </div>
+            <div className="grid-container">
+              <div className="row">
+                <div className="col">
+                  <input
+                    setValue={value.nama}
+                    placeholder="Penulis"
+                    type="text"
+                    id="nameBar"
+                    onChange={handleChangeName}
+                  />
+                </div>
+                <div className="col" id="studID">
+                  <input
+                    setValue={value.npm}
+                    placeholder="NPM Penulis"
+                    type="text"
+                    id="npmBar"
+                    onChange={handleChangeNpm}
+                  />
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Filter Tahun */}
           <div className="row">
             <select setValue={value.tahun} className="dropdown" id="tahun" onChange={handleChangeYear}>
-              <option value="N/A">Tahun</option>
+              <option value="">Tahun</option>
               <option value="2016">2016</option>
               <option value="2017">2017</option>
               <option value="2018">2018</option>
@@ -174,7 +212,7 @@ return (
           {/* Filter Peminatan */}
           <div className="row">
             <select setValue={value.peminatan} className="dropdown" id="peminatan" onChange={handleChangeMajor}>
-              <option value="N/A">Bidang Minat</option>
+              <option value="">Bidang Minat</option>
               <option value="Sistem Informasi">Sistem Informasi</option>
               <option value="Jaringan Komputer">Jaringan Komputer</option>
               <option value="Artificial Intelligence">Artificial Intelligence</option>
