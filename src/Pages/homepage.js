@@ -7,7 +7,11 @@ export default function Homepage(){
   
   const [value, setValue] = useState({
     skripsis: [],
-    input: ''
+    judul: '',
+    nama:'',
+    npm :'',
+    peminatan :'',
+    tahun :''
   });
 
   const getData = async () => {
@@ -30,7 +34,11 @@ export default function Homepage(){
               sf:npm    ?npm;
               sf:peminatan    ?peminatan;
               sf:tahun    ?tahun;
-          FILTER regex(?judul, "${value.input}")
+              FILTER contains(lcase(str(?judul)), lcase(str("${value.judul ? value.judul : ''}")))
+              FILTER contains(lcase(str(?nama)), lcase(str("${value.nama ? value.nama : ''}")))
+              FILTER contains(lcase(str(?npm)), lcase(str("${value.npm ? value.npm : ''}")))
+              FILTER contains(lcase(str(?peminatan)), lcase(str("${value.peminatan ? value.peminatan : ''}")))
+              FILTER contains(lcase(str(?tahun)), lcase(str("${value.tahun ? value.tahun : ''}")))
       }`
   };
 
@@ -69,10 +77,25 @@ const formatter = (skripsi, index) => {
 const handleChange = event => {
   setValue({
     ...value,
-    'input': event.target.value
-  })
+    'judul': event.target.value,
+    'nama': event.target.value,
+    'npm': event.target.value,    
+  });
 }
 
+const handleChangeYear = event => {
+  setValue({
+    ...value,
+    'tahun': event.target.value,
+  });
+}
+
+const handleChangeMajor = event => {
+  setValue({
+    ...value,
+    'peminatan': event.target.value,
+  });
+}
 
 const content = value.skripsis.map((skripsi) =>
   <div className="container">
@@ -97,7 +120,6 @@ const content = value.skripsis.map((skripsi) =>
     </div>
   </div>
 )
-
 
 // Layout
 return (
@@ -131,6 +153,7 @@ return (
         <form>
           <div className="row">
             <input
+              setValue={value.input}
               className="form-input"
               placeholder="Masukkan judul, penulis, atau npm penulis skripsi"
               type="text"
@@ -140,7 +163,7 @@ return (
 
           {/* Filter Tahun */}
           <div className="row">
-            <select className="dropdown" id="tahun" onChange={handleChange}>
+            <select setValue={value.tahun} className="dropdown" id="tahun" onChange={handleChangeYear}>
               <option value="N/A">Tahun</option>
               <option value="2016">2016</option>
               <option value="2017">2017</option>
@@ -150,11 +173,11 @@ return (
 
           {/* Filter Peminatan */}
           <div className="row">
-            <select className="dropdown" id="peminatan" onChange={handleChange}>
+            <select setValue={value.peminatan} className="dropdown" id="peminatan" onChange={handleChangeMajor}>
               <option value="N/A">Bidang Minat</option>
-              <option value="SIM">Sistem Informasi Multimedia</option>
-              <option value="Jarkom">Jaringan Komputer</option>
-              <option value="AI">Artificial Intelligence</option>
+              <option value="Sistem Informasi">Sistem Informasi</option>
+              <option value="Jaringan Komputer">Jaringan Komputer</option>
+              <option value="Artificial Intelligence">Artificial Intelligence</option>
             </select>
           </div>
           <div className="row">

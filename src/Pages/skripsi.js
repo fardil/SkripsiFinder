@@ -35,8 +35,8 @@ return (
                 </MDBCol>
                 <MDBCol md="8">
                    <MDBRow>
-                       <p id="judul">
-                           Judul Skripsi
+                       <p id="judul" src="Homepage">
+                           {Skripsi.judul}
                        </p>
                    </MDBRow>
                    <MDBRow>
