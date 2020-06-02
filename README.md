@@ -12,7 +12,7 @@ $ git clone https://github.com/fardil/SkripsiFinder.git
 ` in command prompt 
 - Type 
 `
-$ npm start
+ npm start
 ` 
 - Website will be opened automatically in your browser
 
@@ -20,7 +20,7 @@ $ npm start
 - Download Apache Jena Fuseki (https://jena.apache.org/documentation/fuseki2/)
 - Access cmd in fuseki directory and type
 `
-$ fuseki-server 
+fuseki-server 
 `
 - Access `
 http://localhost:3030
