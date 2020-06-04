@@ -20,15 +20,15 @@ return (
                 <li className="nav-item">
                     <a className="nav-link" href="/">Home</a>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                     <a className="nav-link" href="login">Login</a>
-                </li>
+                </li> */}
             </ul>
         </div>
       </nav>
 
       {/* container */}
-      <div className="container" id="login">
+      <div className="container" id="skripsi">
             <MDBRow>
                 <MDBCol md="4">
                    <img className="imgSkripsi" src='./formatskripsi.jpg'></img>
