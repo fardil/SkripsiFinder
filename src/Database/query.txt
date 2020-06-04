@@ -1,11 +1,16 @@
 PREFIX sf:<http://skripsifinder.com/skripsi#>
 
 SELECT ?judul ?nama ?npm ?peminatan ?tahun 
-        WHERE
-        { ?d
-          	    sf:judul    ?judul ;
-                sf:nama    ?nama ;
-                sf:npm    ?npm ;
-                sf:peminatan    ?peminatan ;
-                sf:tahun    ?tahun ;
-        }
+      WHERE
+      {
+        ?d    sf:judul    ?judul;
+              sf:nama    ?nama;
+              sf:npm    ?npm;
+              sf:peminatan    ?peminatan;
+              sf:tahun    ?tahun;
+              FILTER contains(lcase(str(?judul)), lcase(str()))
+              FILTER contains(lcase(str(?nama)), lcase(str()))
+              FILTER contains(lcase(str(?npm)), lcase(str()))
+              FILTER contains(lcase(str(?peminatan)), lcase(str()))
+              FILTER contains(lcase(str(?tahun)), lcase(str()))
+      }
