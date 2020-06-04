@@ -1,13 +1,16 @@
-.WebContainer{
+/* css homepage */
+
+/* .WebContainer{
   width: 100%;
   height: auto;
-}
+} */
 
-.container1{
+/* .container1{
   overflow: hidden;
-}
+} */
 
 .header {
+  height: 300px;
   padding: 40px;
   text-align: center;
   background: #1abc9c;
@@ -71,35 +74,49 @@ form{
 
 input#titleBar{
   width: 600px;
+  margin-left: -200px;
 }
 
 input#nameBar{
   width: 300px;
-  margin-left: 255px;
+  margin-left: 70px;
   margin-right: 0px;
 }
 
 input#npmBar{
-  width: 250px;
+  width: 270px;
   margin-right: 220px;
+  margin-left: -220px;
 }
 
-.dropdown{
-  margin-top: 10px;
-  margin-inline-start: 550px;
-  transform: translateY(-10px); 
-  width: 600px;
-  margin-left: 350px;
+.dropdown#tahun{
+  margin-top: -80px;
+  margin-bottom: 90px;
+  /* margin-inline-start: 550px; */
+  /* transform: translateY(-10px);  */
+  width: 100px;
+  margin-left: 820px;
 }
 
+.dropdown#peminatan{
+  margin-top: -80px;
+  margin-bottom: 90px;
+  /* margin-inline-start: 550px; */
+  /* transform: translateY(-10px);  */
+  width: 200px;
+  margin-left: 820px;
+
+}
 .row{
   margin-top: 10px;
 }
 
 .button#search{
-  margin-top: 10px;
-  margin-left: 550px;
+  margin-top: -80px;
+  margin-bottom: 80px;
+  margin-left: 820px;
   width: 200px;
+  background-color: #EEE82C;
 }
 
 .grid-container{

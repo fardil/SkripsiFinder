@@ -8,9 +8,9 @@ import { MDBCol, MDBFormInline, MDBIcon } from "mdbreact";
 
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import Homepage from "./Pages/Homepage";
-import Login from "./Pages/Login";
-import Skripsi from "./Pages/Skripsi";
+import Homepage from "./Pages/homepage";
+import Login from "./Pages/login";
+import Skripsi from "./Pages/skripsi";
 
 function App() {
 
