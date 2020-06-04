@@ -4,7 +4,7 @@
   height: 300px;
   padding: 40px;
   text-align: center;
-  background: #1abc9c;
+  background-image: url(/background1.png);
   color: white;
 }
   
@@ -42,16 +42,13 @@ a#skripsi{
   font-size: 20px;
 }
 
-
-
 h5{
   padding: 20px;
   color: grey;
-  border-bottom: 2pt #E4DFDA ;
 }
 
 footer{
-  background-color: #1abc9c;
+  background-color: #002642;
   color: whitesmoke;
   padding: 20px;
   margin-top: 110px;
