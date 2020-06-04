@@ -1,14 +1,5 @@
 /* css homepage */
 
-/* .WebContainer{
-  width: 100%;
-  height: auto;
-} */
-
-/* .container1{
-  overflow: hidden;
-} */
-
 .header {
   height: 300px;
   padding: 40px;
@@ -105,8 +96,8 @@ input#npmBar{
   /* transform: translateY(-10px);  */
   width: 200px;
   margin-left: 820px;
-
 }
+
 .row{
   margin-top: 10px;
 }
@@ -123,52 +114,6 @@ input#npmBar{
   grid-template-columns: auto auto;
 }
 
-/* css login */
-.container#login{
-  height:480px;
-  margin-top: 40px;
-  margin-bottom: 50px;
-  background-color:#1abc9c;
-  justify-content: space-between;
-  flex-direction: column;
-  display: flex;
-}
-
-img{
-  width: 577; 
-  height: 433;
-  margin-top: 80px;
-  margin-left: -200px;
-}
-
-.welcome{
-  transform: rotate(-90deg);
-  margin-left: -250px;
-  color: white;
-}
-
-.btn-login{
-  justify-content: flex-end;
-  display: flex;
-  margin-bottom: 25px;
-  margin-top: 30px;
-  font-size: 24px;
-  background-color: blue;
-  color: white;
-
-}
-
-.form-word{
-  margin-left: 0px;
-  margin-top: -90px;
-  font-size: 25px;
-  color: white;
-}
-
-.form-group{
-  margin-top: 120px;
-  width: 100px;
-}
 
 /* css skripsi */
 
@@ -203,3 +148,90 @@ article#abstrak{
   margin-top: 35px;
   margin-left: 10px;
 }
+
+.container#skripsi{
+  height:480px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  background-color:#1abc9c;
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+}
+
+
+/* .dropdown#tahun{
+  margin-top: -80px;
+  margin-bottom: 90px;
+  /* margin-inline-start: 550px; */
+  /* transform: translateY(-10px);  */
+  /* width: 100px;
+  margin-left: 820px;
+} */
+
+/* .dropdown#peminatan{
+  margin-top: -80px;
+  margin-bottom: 90px;
+  /* margin-inline-start: 550px; */
+  /* transform: translateY(-10px);  */
+  /* width: 200px;
+  margin-left: 820px;
+
+}  */
+
+/* .WebContainer{
+  width: 100%;
+  height: auto;
+} */
+
+/* .container1{
+  overflow: hidden;
+} */
+
+
+/* css login
+.container#login{
+  height:480px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  background-color:#1abc9c;
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+}
+
+img{
+  width: 577; 
+  height: 433;
+  margin-top: 80px;
+  margin-left: -200px;
+}
+
+.welcome{
+  transform: rotate(-90deg);
+  margin-left: -250px;
+  color: white;
+}
+
+.btn-login{
+  justify-content: flex-end;
+  display: flex;
+  margin-bottom: 25px;
+  margin-top: 30px;
+  font-size: 22px;
+  background-color: #EEE82C;
+  color: black;
+
+}
+
+.form-word{
+  margin-left: 0px;
+  margin-top: -90px;
+  font-size: 25px;
+  color: white;
+}
+
+.form-group{
+  margin-top: 120px;
+  width: 100px;
+} */
