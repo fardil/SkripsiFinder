@@ -40,9 +40,21 @@ return (
                        </p>
                    </MDBRow>
                    <MDBRow>
-                   <MDBCol md="5">Penulis</MDBCol>
-                   <MDBCol md="3">Bidang Minat</MDBCol>
-                   <MDBCol md="3">Tahun</MDBCol>
+                   <MDBCol md="5">
+                       <p id = "penulis">
+                           Penulis
+                        </p>
+                    </MDBCol>
+                   <MDBCol md="3">
+                       <p id ="bidangminat">
+                            Bidang Minat
+                        </p>
+                    </MDBCol>
+                   <MDBCol md="3">
+                       <p id="tahun">
+                            Tahun
+                       </p>
+                    </MDBCol>
                    </MDBRow>
                    <article id="abstrak">
                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
