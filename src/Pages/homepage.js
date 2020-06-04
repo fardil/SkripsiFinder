@@ -231,7 +231,7 @@ return (
       </div>
         
       {/* Hasil Pencarian */}
-      <div class="result">
+      <div>
         <h5>
             Hasil Pencarian Skripsi
         </h5>
