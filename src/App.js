@@ -18,8 +18,8 @@ function App() {
     <div className="App">
       <Router>
         <Route exact path="/" component={Homepage}></Route>
-        <Route exact path="/Login" component={Login}></Route>
-        <Route exact path="/Skripsi" component={Skripsi}></Route>
+        {/* <Route exact path="/Login" component={Login}></Route>
+        <Route exact path="/Skripsi" component={Skripsi}></Route> */}
       </Router>
     </div>
   );
