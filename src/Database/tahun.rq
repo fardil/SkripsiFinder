@@ -12,5 +12,5 @@ WHERE
 
     ?namaPeminatan sf:peminatan ?peminatan .
     ?TahunSkripsi sf:tahun ?tahun .
-    FILTER regex (?peminatan, "Jaringan Komputer") 
+    FILTER regex (?tahun, "2017") 
 }
