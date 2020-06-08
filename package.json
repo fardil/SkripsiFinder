@@ -15,6 +15,7 @@
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-bootstrap-dropdown": "^0.3.0",
+    "react-bootstrap-dropdown-menu": "^1.1.15",
     "react-dom": "^16.13.1",
     "react-dropdown": "^1.7.0",
     "react-dropdown-button": "^1.0.11",

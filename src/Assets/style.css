@@ -7,7 +7,7 @@
   background-image: url(/background1.png);
   color: white;
 }
-  
+
   /* Increase the font size of the heading */
 .header h1 {
   font-size: 40px;
@@ -51,8 +51,12 @@ footer{
   background-color: #002642;
   color: whitesmoke;
   padding: 20px;
-  margin-top: 110px;
-  margin-bottom: 0px;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  bottom: 0;
+  /* margin-top: 110px;
+  margin-bottom: 0px; */
 }
 
 form{
@@ -113,7 +117,6 @@ input#npmBar{
 
 
 /* css skripsi */
-
 .col-md-8#title{
   margin-top: 30px;
   padding: 15px;
@@ -156,6 +159,13 @@ article#abstrak{
   display: flex;
 }
 
+@media only screen and (max-width: 480px) {
+  #footer ul li a img {
+    max-width: 100%;
+    display: block;
+    /* height: auto; */ 
+   }
+  }
 
 /* .dropdown#tahun{
   margin-top: -80px;
