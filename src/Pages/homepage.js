@@ -145,6 +145,9 @@ return (
                 <li className="nav-item active">
                     <a className="nav-link" href="/">Home</a>
                 </li>
+                {/* <li className="nav-item">
+                    <a className="nav-link" href="login">Login</a>
+                </li> */}
             </ul>
         </div>
       </nav>
@@ -199,7 +202,6 @@ return (
               <option value="">Tahun</option>
               <option value="2016">2016</option>
               <option value="2017">2017</option>
-              <option value="2018">2018</option>
             </select>
           </div>
 
