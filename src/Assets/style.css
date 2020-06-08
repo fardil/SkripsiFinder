@@ -1,4 +1,24 @@
+@media screen and (max-width:680px){
+
+	#maincontent{
+		width: auto;
+		float: none;
+	}
+	#sidebar{
+		width: auto;
+		float: none;
+	}
+}
 /* css homepage */
+
+.WebContainer{
+  width: 100%;
+  height: auto;
+} */
+
+.container1{
+  overflow: hidden;
+}
 
 .header {
   height: 300px;
@@ -82,10 +102,10 @@ input#npmBar{
 }
 
 .dropdown#tahun{
-  margin-top: -80px;
+  margin-top: -70px;
   margin-bottom: 90px;
-  /* margin-inline-start: 550px; */
-  /* transform: translateY(-10px);  */
+  margin-inline-start: 550px;
+  transform: translateY(-10px); 
   width: 100px;
   margin-left: 820px;
 }
@@ -93,8 +113,8 @@ input#npmBar{
 .dropdown#peminatan{
   margin-top: -80px;
   margin-bottom: 90px;
-  /* margin-inline-start: 550px; */
-  /* transform: translateY(-10px);  */
+  margin-inline-start: 550px;
+  transform: translateY(-10px); 
   width: 200px;
   margin-left: 820px;
 }
@@ -126,7 +146,7 @@ input#npmBar{
   justify-content: flex-end;
   display: flex;
   margin-right: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 p#judul{
@@ -136,10 +156,25 @@ p#judul{
   color: white;
 }
 
+p#penulis{
+  color: white;
+}
+
+p#bidangminat{
+  color: white;
+  margin-left: 50px;
+}
+
+p#tahun{
+  color: white;
+  margin-left: 100px;
+}
+
 article#abstrak{
   margin-top: 15px;
   padding: 3px;
   font-style: italic;
+  color: white;
 }
 
 .imgSkripsi{
@@ -150,10 +185,10 @@ article#abstrak{
 }
 
 .container#skripsi{
-  height:480px;
+  height:500px;
   margin-top: 40px;
   margin-bottom: 50px;
-  background-color:#1abc9c;
+  background-color:#002642;
   justify-content: space-between;
   flex-direction: column;
   display: flex;
@@ -166,42 +201,13 @@ article#abstrak{
     /* height: auto; */ 
    }
   }
+/* css login */
 
-/* .dropdown#tahun{
-  margin-top: -80px;
-  margin-bottom: 90px;
-  /* margin-inline-start: 550px; */
-  /* transform: translateY(-10px);  */
-  /* width: 100px;
-  margin-left: 820px;
-} */
-
-/* .dropdown#peminatan{
-  margin-top: -80px;
-  margin-bottom: 90px;
-  /* margin-inline-start: 550px; */
-  /* transform: translateY(-10px);  */
-  /* width: 200px;
-  margin-left: 820px;
-
-}  */
-
-/* .WebContainer{
-  width: 100%;
-  height: auto;
-} */
-
-/* .container1{
-  overflow: hidden;
-} */
-
-
-/* css login
 .container#login{
   height:480px;
   margin-top: 40px;
   margin-bottom: 50px;
-  background-color:#1abc9c;
+  background-color:#002642;
   justify-content: space-between;
   flex-direction: column;
   display: flex;
@@ -241,4 +247,4 @@ img{
 .form-group{
   margin-top: 120px;
   width: 100px;
-} */
+}

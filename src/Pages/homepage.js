@@ -1,4 +1,8 @@
 import React, { useState } from 'react';
+<<<<<<< HEAD
+=======
+import {} from "react-router-dom";
+>>>>>>> 2d1ae70adb0f52910264b97aa5e13ddece34c41b
 import axios from 'axios';
 import qs from 'qs';
 import { Button, Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
@@ -135,7 +139,7 @@ const content = value.skripsis.map((skripsi) =>
 
 // Layout
 return (
-    <body>
+    <div>
       {/* Navbar */}
       <Navbar bg="light" expand="lg">
       <Navbar.Brand href="#home">Skripsi Finder</Navbar.Brand>
@@ -159,7 +163,7 @@ return (
             <div className="row">
               <div className="col">
                 <input
-                  setValue={value.judul}
+                  setvalue={value.judul}
                   placeholder="Judul Skripsi"
                   type="text"
                   id="titleBar"
@@ -171,7 +175,7 @@ return (
               <div className="row">
                 <div className="col">
                   <input
-                    setValue={value.nama}
+                    setvalue={value.nama}
                     placeholder="Penulis"
                     type="text"
                     id="nameBar"
@@ -180,7 +184,7 @@ return (
                 </div>
                 <div className="col" id="studID">
                   <input
-                    setValue={value.npm}
+                    setvalue={value.npm}
                     placeholder="NPM Penulis"
                     type="text"
                     id="npmBar"
@@ -193,17 +197,16 @@ return (
 
           {/* Filter Tahun */}
           <div className="row">
-            <select setValue={value.tahun} className="dropdown" id="tahun" onChange={handleChangeYear}>
+            <select setvalue={value.tahun} className="dropdown" id="tahun" onChange={handleChangeYear}>
               <option value="">Tahun</option>
               <option value="2016">2016</option>
               <option value="2017">2017</option>
-              <option value="2018">2018</option>
             </select>
           </div>
 
           {/* Filter Peminatan */}
           <div className="row">
-            <select setValue={value.peminatan} className="dropdown" id="peminatan" onChange={handleChangeMajor}>
+            <select setvalue={value.peminatan} className="dropdown" id="peminatan" onChange={handleChangeMajor}>
               <option value="">Bidang Minat</option>
               <option value="Sistem Informasi">Sistem Informasi</option>
               <option value="Jaringan Komputer">Jaringan Komputer</option>
@@ -236,6 +239,6 @@ return (
         <footer>
           <div className="footer-copyright">&copy; 2020 Skripsi Finder</div>
         </footer>
-    </body>
+      </div>
     );
 }

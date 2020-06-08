@@ -1,10 +1,7 @@
-import React, {useState} from 'react';
-import axios from 'axios';
-import qs from 'qs';
+import React, {} from 'react';
 import './Assets/style.css';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { MDBCol, MDBFormInline, MDBIcon } from "mdbreact";
+
 
 import { BrowserRouter as Router, Route } from "react-router-dom";
 

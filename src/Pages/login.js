@@ -1,18 +1,14 @@
-import React, { useState } from 'react';
-import Fade from "react-reveal/Fade";
-import axios from 'axios';
-import qs from 'qs';
-import { MDBCol, MDBFormInline, MDBIcon, MDBRow } from "mdbreact";
+import React, {} from 'react';
+import { MDBCol, MDBFormInline,  MDBRow } from "mdbreact";
 
 import 'bootstrap/dist/css/bootstrap.css';
-import Homepage from './homepage';
 // import Dropdown from 'react-dropdown';
 // import 'react-dropdown/style.css';
 // import DropdownButton from 'react-dropdown-button'
 
 export default function Login(){
 return (
-    <body>
+    <div>
       {/* Navbar */}
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a className="navbar-brand" href="/">Skripsi Finder</a>
@@ -41,7 +37,7 @@ return (
                     </h1>
                 </MDBCol>
                 <MDBCol md="4">
-                    <img src='/skripsi1.png'></img>
+                    <img src='/skripsi1.png' alt="imglogoskripsi"></img>
                 </MDBCol>
                 <MDBCol md="4">
                     <MDBFormInline className="form-group">
@@ -56,6 +52,6 @@ return (
                 </MDBCol>
             </MDBRow>
         </div>
-    </body>
+    </div>
     )
 }

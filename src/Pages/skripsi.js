@@ -1,20 +1,13 @@
-import React, { useState } from 'react';
-import Fade from "react-reveal/Fade";
-import axios from 'axios';
-import qs from 'qs';
-import { MDBCol, MDBFormInline, MDBIcon, MDBRow } from "mdbreact";
+import React, {} from 'react';
+import { MDBCol,  MDBRow } from "mdbreact";
 import 'bootstrap/dist/css/bootstrap.css';
 
 export default function Skripsi(){
 return (
-    <body>
+    <div>
       {/* Navbar */}
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a className="navbar-brand" href="homepage">Skripsi Finder</a>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-        </button>
-
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
                 <li className="nav-item">
@@ -31,7 +24,7 @@ return (
       <div className="container" id="skripsi">
             <MDBRow>
                 <MDBCol md="4">
-                   <img className="imgSkripsi" src='./formatskripsi.jpg'></img>
+                   <img className="imgSkripsi" src='./formatskripsi.jpg' alt="imgskripsi"></img>
                 </MDBCol>
                 <MDBCol md="8" id="title">
                    <MDBRow>
@@ -40,9 +33,21 @@ return (
                        </p>
                    </MDBRow>
                    <MDBRow>
-                   <MDBCol md="5">Penulis</MDBCol>
-                   <MDBCol md="3">Bidang Minat</MDBCol>
-                   <MDBCol md="3">Tahun</MDBCol>
+                   <MDBCol md="5">
+                       <p id = "penulis">
+                           Penulis
+                        </p>
+                    </MDBCol>
+                   <MDBCol md="3">
+                       <p id ="bidangminat">
+                            Bidang Minat
+                        </p>
+                    </MDBCol>
+                   <MDBCol md="3">
+                       <p id="tahun">
+                            Tahun
+                       </p>
+                    </MDBCol>
                    </MDBRow>
                    <article id="abstrak">
                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -55,6 +60,6 @@ return (
                 <button type="button">Download</button>
             </div>
         </div>
-    </body>
+    </div>
     )
 }
