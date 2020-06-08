@@ -15,7 +15,7 @@ export default function Homepage(){
   });
 
   const getData = async () => {
-    const BASE_URL = "http://localhost:3030/skripsi-finder/query";
+    const BASE_URL = "https://qrary-fuseki-service.herokuapp.com/skripsi-finder/query";
 
     const headers = {
       'Accept': 'application/sparql-results+json,*/*;q=0.9',
