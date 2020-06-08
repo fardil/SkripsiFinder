@@ -2,7 +2,7 @@
 
 .WebContainer{
   width: 100%;
-  height: auto;
+  height: 100%;
 } */
 
 .container1{
@@ -50,13 +50,20 @@ h5{
   color: grey;
 }
 
+@media only screen and (max-width: 600px) {
+  #footer{
+    max-width: 100%;
+    display: block;
+    /* height: auto; */ 
+   }
+  }
+
 footer{
   background-color: #002642;
   color: whitesmoke;
   padding: 20px;
   width: 100%;
-  overflow: hidden;
-  bottom: 0;
+  margin-top: 45px;
 }
 
 form{
@@ -99,7 +106,7 @@ form{
   input#npmBar{
     width: 50%;
     margin-right: 290px;
-    margin-left: 5px;
+    margin-left: -8px;
   }
   
   input#nameBar{
@@ -196,13 +203,7 @@ article#abstrak{
   display: flex;
 }
 
-@media only screen and (max-width: 480px) {
-  #footer{
-    max-width: 100%;
-    display: block;
-    /* height: auto; */ 
-   }
-  }
+
 
 @media only screen and (max-width: 768px) {
   #container{

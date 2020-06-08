@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import qs from 'qs';
-import { Button, Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import { Navbar, Nav,} from 'react-bootstrap';
 
 export default function Homepage(){
   
