@@ -32,8 +32,12 @@ export default function Homepage(){
         ?d    sf:judul    ?judul;
               sf:nama    ?nama;
               sf:npm    ?npm;
-              sf:peminatan    ?peminatan;
-              sf:tahun    ?tahun;
+              sf:hasPeminatan ?namaPeminatan ;
+              sf:isTahun ?TahunSkripsi .
+
+              ?namaPeminatan sf:peminatan ?peminatan .
+              ?TahunSkripsi sf:tahun ?tahun .
+              
               FILTER contains(lcase(str(?judul)), lcase(str("${value.judul ? value.judul : ''}")))
               FILTER contains(lcase(str(?nama)), lcase(str("${value.nama ? value.nama : ''}")))
               FILTER contains(lcase(str(?npm)), lcase(str("${value.npm ? value.npm : ''}")))
