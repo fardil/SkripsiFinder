@@ -1,8 +1,4 @@
 import React, { useState } from 'react';
-<<<<<<< HEAD
-=======
-import {} from "react-router-dom";
->>>>>>> 2d1ae70adb0f52910264b97aa5e13ddece34c41b
 import axios from 'axios';
 import qs from 'qs';
 import { Button, Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
