@@ -1,5 +1,14 @@
 /* css homepage */
 
+.WebContainer{
+  width: 100%;
+  height: auto;
+} */
+
+.container1{
+  overflow: hidden;
+}
+
 .header {
   height: 300px;
   padding: 40px;
@@ -78,10 +87,10 @@ input#npmBar{
 }
 
 .dropdown#tahun{
-  margin-top: -80px;
+  margin-top: -70px;
   margin-bottom: 90px;
-  /* margin-inline-start: 550px; */
-  /* transform: translateY(-10px);  */
+  margin-inline-start: 550px;
+  transform: translateY(-10px); 
   width: 100px;
   margin-left: 820px;
 }
@@ -89,8 +98,8 @@ input#npmBar{
 .dropdown#peminatan{
   margin-top: -80px;
   margin-bottom: 90px;
-  /* margin-inline-start: 550px; */
-  /* transform: translateY(-10px);  */
+  margin-inline-start: 550px;
+  transform: translateY(-10px); 
   width: 200px;
   margin-left: 820px;
 }
@@ -171,37 +180,7 @@ article#abstrak{
   display: flex;
 }
 
-
-/* .dropdown#tahun{
-  margin-top: -80px;
-  margin-bottom: 90px;
-  /* margin-inline-start: 550px; */
-  /* transform: translateY(-10px);  */
-  /* width: 100px;
-  margin-left: 820px;
-} */
-
-/* .dropdown#peminatan{
-  margin-top: -80px;
-  margin-bottom: 90px;
-  /* margin-inline-start: 550px; */
-  /* transform: translateY(-10px);  */
-  /* width: 200px;
-  margin-left: 820px;
-
-}  */
-
-/* .WebContainer{
-  width: 100%;
-  height: auto;
-} */
-
-/* .container1{
-  overflow: hidden;
-} */
-
-
-/* css login
+css login
 .container#login{
   height:480px;
   margin-top: 40px;
@@ -246,4 +225,4 @@ img{
 .form-group{
   margin-top: 120px;
   width: 100px;
-} */
+}
