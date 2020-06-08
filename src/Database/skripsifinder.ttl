@@ -2,471 +2,445 @@
 @prefix d:     <http://skripsifinder.com/data#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-<d:130030>
+d:140810130030
         sf:judul      "Program Rute Terpendek UNPAD Jatinangor Menggunakan Algoritma DIKSTRA" ;
         sf:nama       "Muhamad Ilham D." ;
-        sf:npm        "140810130030" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130030" .
 
-<d:130002>
+d:140810130002
         sf:judul      "Perancangan Dan Implementasi Sistem Informasi Etnoinformatika Penamaan Kampung Untuk Melihat Karakteristik Kebudayaan Sunda Di Kabupaten Tasikmalaya Berbasis Web" ;
         sf:nama       "Ai Siti Sobariah" ;
-        sf:npm        "140810130002" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130002" .
 
-<d:130056>
+d:140810130056
         sf:judul      "Perbandingan Haar Cascade Classification Dan LBP Cascade Classification Sebagai Hand Gesture Recognition Dalam Aplikasi Virtual Reality" ;
         sf:nama       "Muhammad Iqbal Pandailing Widodo" ;
-        sf:npm        "140810130056" ;
-        sf:peminatan  "Artificial Intelligence" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130056" .
 
-<d:130022>
+d:140810130022
         sf:judul      "Pengembangan Aplikasi Sistem Pemantauan dan Evaluasi Proyek" ;
         sf:nama       "Yusuf Septiananda" ;
-        sf:npm        "140810130022" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130022" .
 
-<d:130035>
+d:140810130035
         sf:judul      "Implementasi Algoritma K-Means Clustering untuk Menentukan Prioritas Pembangunan Pendidikan di Provinsi Jawa Barat" ;
         sf:nama       "Wahyudin Buca Kalauw" ;
-        sf:npm        "140810130035" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130035" .
 
-<d:120014>
+d:140810120014
         sf:judul      "Program Aplikasi Pengenalan Plat Nomor Kendaraan Mobil Menggunakan Template Matching Pada Sistem Informasi Parkir" ;
         sf:nama       "Indah Maulidia Turrohmah" ;
-        sf:npm        "140810120014" ;
-        sf:peminatan  "Artificial Intelligence" ;
-        sf:tahun      "2016" .
+        sf:npm        "140810120014" .
 
-<d:130007>
+d:140810130007
         sf:judul      "Aplikasi Sistem Pendukung Keputusan Dalam Menentukan Kenaikan Pangkat Dan Promosi Jabatan Struktural Di Kabupaten Garut Menggunakan Metode Topsis" ;
         sf:nama       "Rizki Fitrah Mutaqin" ;
-        sf:npm        "140810130007" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130007" .
 
-<d:130048>
+d:140810130048
         sf:judul      "Sistem Pendukung Keputusan Berbasis Fuzzy Analytical Hierarchy Process Untuk Penentuan Kelayakan Penerimaan Kredit (Studi Kasus : Koperasi Keluarga Besar Dinas Pendapatan (KKBD) Provinsi Jawa Barat)" ;
         sf:nama       "Fieny Mughnisari S" ;
-        sf:npm        "140810130048" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130048" .
 
-<d:120027>
+d:140810120027
         sf:judul      "Rancang Bangun Sistem Pakar untuk Mendiagnosa Kondisi Gangguan Kepribadian Menggunakan Metode Forward Chaining Berbasis Mobile Android" ;
         sf:nama       "Zahra Solihah" ;
-        sf:npm        "140810120027" ;
-        sf:peminatan  "Artificial Intelligence" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810120027" .
 
-<d:130001>
+d:140810130001
         sf:judul      "Naive Bayes Classifier Untuk Kategori Berita Bahasa Indonesia Berbasis Web" ;
         sf:nama       "Carinna Sunny Budiono Putri" ;
-        sf:npm        "140810130001" ;
-        sf:peminatan  "Artificial Intelligence" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130001" .
 
-<d:130042>
+d:140810130042
         sf:judul      "Sistem Informasi Mobile Berbasis Web Service Untuk Pemantauan Lokasi Perangkat Android (Studi Kasus Bus Damri Kota Bandung)" ;
         sf:nama       "Ardhi Rizki Harahap" ;
-        sf:npm        "140810130042" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130042" .
 
-<d:130014>
+d:140810130014
         sf:judul      "Metode Fuzzy Analytical Hierarchy Process Untuk Pemilihan Rayon Terbaik Dalam Perspektif Pelanggan Pada PT. PLN (Persro) Area Cirebon" ;
         sf:nama       "Edwin Ginanjar Sonjaya" ;
-        sf:npm        "140810130014" ;
-        sf:peminatan  "Artificial Intelligence" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130014" .
 
-<d:12001>
+d:14081012001
         sf:judul      "Sistem Informasi Persediaan Barang Berbasis Web dan Sistem Monitoring Berbasis Mobile pada Perusahaan Distribusi" ;
         sf:nama       "Jordy Saragih" ;
-        sf:npm        "140810120001" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2016" .
+        sf:npm        "140810120001" .
 
-<d:130055>
+d:140810130055
         sf:judul      "Sistem Informasi Monitoring Aset Berbasis Web Pada Departemen IT Santosa Hospital Bandung Kopo" ;
         sf:nama       "Akmaluddin Fadhilah" ;
-        sf:npm        "140810130055" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130055" .
 
-<d:130027>
+d:140810130027
         sf:judul      "Pengembangan Sistem Pendukung Keputusan Pemilihan Kelompok Tani Penerima Bantuan Pertanian Menggunakan Metode Analytical Hierarchy Process Berbasis Web" ;
         sf:nama       "Agung Kurniati" ;
-        sf:npm        "140810130027" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130027" .
 
-<d:120006>
+d:140810120006
         sf:judul      "Analisis Perbandingan Metode Binerisasi Terhadap Citra Naskah Lontar Sunda Kuno" ;
         sf:nama       "Deisna Rahmaningtyas" ;
-        sf:npm        "140810120006" ;
-        sf:peminatan  "Artificial Intelligence" ;
-        sf:tahun      "2016" .
+        sf:npm        "140810120006" .
 
-<d:120019>
+d:140810120019
         sf:judul      "Implementasi Pemodelan Ontologi dan Pembangunan Web Semantik Pada Studi Kasus Pencarian Buku di Perpustakaan Digital (Informatics E-Library)" ;
         sf:nama       "Benarivo Triadi Putra" ;
-        sf:npm        "140810120019" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810120019" .
 
-<d:130021>
+d:140810130021
         sf:judul      "Implementasi Algoritma Spyware Dalam Program Aplikasi Remote Access" ;
         sf:nama       "Anaz Tazcia Lestari" ;
-        sf:npm        "140810130021" ;
-        sf:peminatan  "Jaringan Komputer" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130021" .
 
-<d:130034>
+d:140810130034
         sf:judul      "Analisis Performa Algoritma Kriptografi AES Untuk Citra Digital Pada Berbagai Perangkat Android" ;
         sf:nama       "Dion Alamsah" ;
-        sf:npm        "140810130034" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130034" .
 
-<d:120013>
+d:140810120013
         sf:judul      "Analisis dan Perancangan Jaringan Wireless di Gedung PPBS Unpad Untuk Mengoptimalkan Peletakan Posisi Access Point" ;
         sf:nama       "Jansen Giovanni" ;
-        sf:npm        "140810120013" ;
-        sf:peminatan  "Jaringan Komputer" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810120013" .
 
-<d:130006>
+d:140810130006
         sf:judul      "Pengenalan Gestur Tangan Berbasis Warna Kulit untuk Penerjemahan Bahasa Isyarat" ;
         sf:nama       "Sopyan Mulyana" ;
-        sf:npm        "140810130006" ;
-        sf:peminatan  "Artificial Intelligence" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130006" .
 
-<d:120026>
+d:140810120026
         sf:judul      "Network Behavior Anomaly Detection (Studi Kasus di Gedung D PPBS Universitas Padjadjaran" ;
         sf:nama       "Billal M. Hadian" ;
-        sf:npm        "140810120026" ;
-        sf:peminatan  "Jaringan Komputer" ;
-        sf:tahun      "2016" .
+        sf:npm        "140810120026" .
 
-<d:130047>
+d:140810130047
         sf:judul      "Sistem Pendukung Keputusan Investasi Properti Berbasis Web Menggunakan Metode Analytical Hierarchy Process" ;
         sf:nama       "Alvin Niza Aulia" ;
-        sf:npm        "140810130047" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130047" .
 
-<d:130019>
+d:140810130019
         sf:judul      "Perancangan dan Implementasi Sistem Informasi Sidang Tilang Pada Pengadilan Negeri Indramayu Berbasis Web" ;
         sf:nama       "Anggie Audina Ikhwanudin" ;
-        sf:npm        "140810130019" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130019" .
 
-<d:130041>
+d:140810130041
         sf:judul      "Analisis Filtering Email SPAM Menggunakan Metode Naive Bayesian" ;
         sf:nama       "Andrean Taufik" ;
-        sf:npm        "140810130041" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130041" .
 
-<d:120020>
+d:140810120020
         sf:judul      "Pengembangan Aplikasi Temporal Data Mining Prediksi Curah Hujan Berbasis PHP dan MySQL Menggunakan Model Autoregressive di Propinsi Jawa Barat" ;
         sf:nama       "Luqman Adibiarso" ;
-        sf:npm        "140810120020" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2016" .
+        sf:npm        "140810120020" .
 
-<d:130013>
+d:140810130013
         sf:judul      "Implementasi Perbandingan Metode Fuzzy Analytical Hierarchy Process Dan Simple Additive Weighting Dalam Sistem Pendukung Keputusan Pemilihan Pengawas Sekolah Terbaik Di Kabupaten Tanjung Jabung Timur" ;
         sf:nama       "Rezky Pratomo" ;
-        sf:npm        "140810130013" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130013" .
 
-<d:130054>
+d:140810130054
         sf:judul      "Aplikasi Pencarian File Duplikasi Menggunakan Metode Message Digest 5 Hash" ;
         sf:nama       "Ahmad Dinan Kurnia" ;
-        sf:npm        "140810130054" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130054" .
 
-<d:120005>
+d:140810120005
         sf:judul      "Pembangunan Aplikasi Navigasi Dalam Gedung D PPBS Universitas Padjajdaran Menggunakan Model Pemetaan Indoor Geolocation Berbasis Android" ;
         sf:nama       "Muhammad Iqbal" ;
-        sf:npm        "140810120005" ;
-        sf:peminatan  "Jaringan Komputer" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810120005" .
 
-<d:130039>
+d:140810130039
         sf:judul      "Pengembangan Aplikasi Mobile Manajemen Aset dengan QR-Code" ;
         sf:nama       "Mochamad Edwin Lokyta" ;
-        sf:npm        "140810130039" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130039" .
 
-<d:120018>
+d:140810120018
         sf:judul      "Rancang Bangun Aplikasi Penyisipan Pesan Ke Dalam Gambar Menggunakan Teknik Steganografi Dengan Metode Enhance LSB" ;
         sf:nama       "Muhammad Miftah Al Rasyid" ;
-        sf:npm        "140810120018" ;
-        sf:peminatan  "Artificial Intelligence" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810120018" .
 
-<d:130061>
+d:140810130061
         sf:judul      "Pengembangan Aplikasi Berbasis Chrome Extension Untuk Mengakses Browser Game Kantai Collection Dengan Menggunakan Metode IP Spoofing" ;
         sf:nama       "Rifky Fachry Muhamad" ;
-        sf:npm        "140810130061" ;
-        sf:peminatan  "Jaringan Komputer" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130061" .
 
-<d:120012>
+d:140810120012
         sf:judul      "Klasifikasi Anomali Trafik Jaringan Unpad Jatinangor Menggunakan Naive Bayes Classifier: Studi Kasus Data Trafik Periode April-Mei 2016" ;
         sf:nama       "Ichsan Alfiansyah" ;
-        sf:npm        "140810120012" ;
-        sf:peminatan  "Jaringan Komputer" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810120012" .
 
-<d:130005>
+d:140810130005
         sf:judul      "Sistem Informasi Perpustakaan Berbasis Web Di SMA Darul Falah Cihampelas Bandung Barat" ;
         sf:nama       "Henry Aulia Rahman" ;
-        sf:npm        "140810130005" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130005" .
 
-<d:130046>
+d:140810130046
         sf:judul      "Analisis Pengaruh Firewall Terhadap Kinerja Komputer Dalam Mengurangi Dampak Serangan DoS" ;
         sf:nama       "Fadel Muhammad P" ;
-        sf:npm        "140810130046" ;
-        sf:peminatan  "Jaringan Komputer" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130046" .
 
-<d:130018>
+d:140810130018
         sf:judul      "Penerapan Data Mining Algoritma K-Means Clustering Dalam Segmentasi Wilayah Nasabah Permohonan Kredit Untuk Membantu Strategi Pemasaran PT. BPR Ganto Nagari 1854" ;
         sf:nama       "Selano Putra" ;
-        sf:npm        "140810130018" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130018" .
 
-<d:130059>
+d:140810130059
         sf:judul      "Sistem Pendukung Keputusan Pemilihan Smartphone Menggunakan Metode Fuzzy Analytical Hierarchy Process Berbasis Web" ;
         sf:nama       "Aldi Maulana" ;
-        sf:npm        "140810130059" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130059" .
 
-<d:130040>
+d:140810130040
         sf:judul      "Analisis Dan Perbandingan Enkripsi Dekripsi Pada File Menggunakan Metode AES Rijndael Dan 3DES" ;
         sf:nama       "Irdan Anshari" ;
-        sf:npm        "140810130040" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130040" .
 
-<d:130012>
+d:140810130012
         sf:judul      "Manajemen Traffic Jaringan Internet Berbasis Web Dengan Protocol SNMP (Studi Kasus di Lab SIM Departemen Ilmu Komputer Universitas Padjadjaran)" ;
         sf:nama       "Febrian Suhendra Citromulyo" ;
-        sf:npm        "140810130012" ;
-        sf:peminatan  "Jaringan Komputer" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130012" .
 
-<d:130053>
+d:140810130053
         sf:judul      "Pengembangan Aplikasi Travelling Salesman Problem Dengan Optimasi Robust (Studi Kasus Pada Pekan Paralimpik Nasional XV 2016)" ;
         sf:nama       "Albertus Aditya Wisnu Whardana" ;
-        sf:npm        "140810130053" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130053" .
 
-<d:130025>
+d:140810130025
         sf:judul      "Implementasi Sistem Pemungutan Suara Elektronik Dengan Menggunakan Teknologi NFC (Near Field Communication) Pada Platform Android (Studi Kasus Pemilihan Ketua HIMATIF FMIPA Unpad)" ;
         sf:nama       "Muhammad Adamul Khair" ;
-        sf:npm        "140810130025" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130025" .
 
-<d:130038>
+d:140810130038
         sf:judul      "Simulasi Eksplorasi Hutan Pada Malam Hari Berbasis Virtual Reality Menggunakan Game Engine Unity 3D" ;
         sf:nama       "Firdaus Perdana Yusuf" ;
-        sf:npm        "140810130038" ;
-        sf:peminatan  "Artificial Intelligence" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130038" .
 
-<d:130060>
+d:140810130060
         sf:judul      "Penerapan K-Optimal Pada Algoritma K-Nearest Neighbor (KKN) Untuk Klasifikasi Dan Prediksi Masa Studi Mahasiswa FMIPA Unpad" ;
         sf:nama       "Hilmi Wijaksana Wahyudi" ;
-        sf:npm        "140810130060" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130060" .
 
-<d:120011>
+d:140810120011
         sf:judul      "Desain Dan Analisis Pengembangan Program Aplikasi IDMS Dengan Metodologi Scrum Framework" ;
         sf:nama       "O. Ginanjar" ;
-        sf:npm        "140810120011" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810120011" .
 
-<d:130032>
+d:140810130032
         sf:judul      "Pemanfaatan Kartu Tanda Mahasiswa Untuk Autentikasi Dalam Pengembangan Sistem Informasi Akademik Universitas Padjadjaran Berbasis Android" ;
         sf:nama       "Nero Gading Laksamana" ;
-        sf:npm        "140810130032" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130032" .
 
-<d:130004>
+d:140810130004
         sf:judul      "Perancangan Dan Implementasi Sistem Informasi Etnoinformatika Penamaan Kampung Di Kabupaten Garut Berbasis Java" ;
         sf:nama       "Linda Angela Putri" ;
-        sf:npm        "140810130004" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130004" .
 
-<d:130045>
+d:140810130045
         sf:judul      "Membangun Program Aplikasi CCTV Berbasis Smartphone Android Untuk Menghitung Jumlah Pelanggar Lajur Kendaraan Studi Kasus di Universitas Padjadjaran" ;
         sf:nama       "Rizky Maulana Rachyan" ;
-        sf:npm        "140810130045" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130045" .
 
-<d:120024>
+d:140810120024
         sf:judul      "Pemanfaatan Kartu Tanda Penduduk Elektronik sebagai Alternatif Otentikasi (Studi Kasus Pada Sistem PAUS ID di Universitas Padjadjaran" ;
         sf:nama       "Faishal Wahiduddin" ;
-        sf:npm        "140810120024" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2016" .
+        sf:npm        "140810120024" .
 
-<d:120009>
+d:140810120009
         sf:judul      "Penerapan Data Mining Dengan Teknik Semi-Supervised Clustering Untuk Mengelompokan Statistik Pemain Sepak Bola Berdasarkan Posisi Dalam Formasi" ;
         sf:nama       "Fath Imtiaz" ;
-        sf:npm        "140810120009" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810120009" .
 
-<d:130052>
+d:140810130052
         sf:judul      "Sistem Pendukung Keputusan Dalam Menentukan Atlet Taekwondo Untuk Mengikuti Kejuaraan Dengan Metode Analytical Hierarchy Process (AHP)" ;
         sf:nama       "Tiara Rizki Maharani" ;
-        sf:npm        "140810130052" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130052" .
 
-<d:130024>
+d:140810130024
         sf:judul      "Sistem Informasi Etnoinformatika Penamaan Dusun Dalam Mengetahui Karakteristik Masyarakat Ciamis Berbasis Website" ;
         sf:nama       "Asep Sudrajat" ;
-        sf:npm        "140810130024" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130024" .
 
-<d:120016>
+d:140810120016
         sf:judul      "Sistem Informasi Tracer Study Berbasis Web Menggunakan Framework Laravel" ;
         sf:nama       "Isa Abdul Muhyi" ;
-        sf:npm        "140810120016" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810120016" .
 
-<d:130009>
+d:140810130009
         sf:judul      "Perbandingan Sistem Pengambilan Keputusan Pemilihan Distributor Pada Perusahaan Menggunakan Metode AHP Dan Metode SMART" ;
         sf:nama       "Farrah Sania Abdilla" ;
-        sf:npm        "140810130009" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130009" .
 
-<d:130031>
+d:140810130031
         sf:judul      "Aplikasi Formulasi Kolam Ikan Tertutup Dengan Metode Regresi" ;
         sf:nama       "Eben Ezer Naibaho" ;
-        sf:npm        "140810130031" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130031" .
 
-<d:120010>
+d:140810120010
         sf:judul      "Pemanfaatan Kartu Tanda Penduduk Elektronik Sebagai Sistem Informasi Absensi Kelas Di Program Studi Teknik Informatika Fakultas MIPA Universitas Padjadjaran" ;
         sf:nama       "Ivan Alexander Yunadi" ;
-        sf:npm        "140810120010" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810120010" .
 
-<d:130003>
+d:140810130003
         sf:judul      "Data Mining Untuk Clustering Ethnoinformatika Penamaan Kampung Di Kabupaten Bandung" ;
         sf:nama       "Anne Devia" ;
-        sf:npm        "140810130003" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130003" .
 
-<d:120023>
+d:140810120023
         sf:judul      "Aplikasi Steganografi Suara Menggunakan Metode Phase Coding" ;
         sf:nama       "M. Raditya Putra" ;
-        sf:npm        "140810120023" ;
-        sf:peminatan  "Artificial Intelligence" ;
-        sf:tahun      "2016" .
+        sf:npm        "140810120023" .
 
-<d:130016>
+d:140810130016
         sf:judul      "Membangun Automatic Facial Recognition System Menggunakan Metode Euclidean Distance Sebagai Alat untuk Mengenali Kondisi Emosi Seseorang" ;
         sf:nama       "Muhammad Fadly Rahman" ;
-        sf:npm        "140810130016" ;
-        sf:peminatan  "Artificial Intelligence" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130016" .
 
-<d:130029>
+d:140810130029
         sf:judul      "Analisis Aplikasi Peringkasan Teks Otomatis Menggunakan Metode Term Frequency Inverse Document Frequency (TF-IDR)" ;
         sf:nama       "Fadhli Aufar Syahmi" ;
-        sf:npm        "140810130029" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130029" .
 
-<d:120008>
+d:140810120008
         sf:judul      "Pemanfaatan Augmented Reality Sebagai Sarana Pembelajaran Sistem Gerak Tubuh Manusia" ;
         sf:nama       "Amir Mujahiduddien" ;
-        sf:npm        "140810120008" ;
-        sf:peminatan  "Artificial Intelligence" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810120008" .
 
-<d:130010>
+d:140810130010
         sf:judul      "Aplikasi Sistem Pendukung Keputusan Prioritas Pembangunan Kesehatan Di Provinsi Jawa Barat Menggunakan Metode Fuzzy Analytical Hierarchy Process" ;
         sf:nama       "Mauludy Nugrahani" ;
-        sf:npm        "140810130010" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+        sf:npm        "140810130010" .
 
-<d:130051>
-        sf:judul      "Pengujian Keamanan Wireless Access Point Dengan Protokol Keamanan WEP, WPA, dan WPA2 Menggunakan Aircrack-ng Pada Sistem Operasi Kali Linux" ;
-        sf:nama       "Raynaldo Kristiadi Sola Gratia" ;
-        sf:npm        "140810130051" ;
-        sf:peminatan  "Jaringan Komputer" ;
-        sf:tahun      "2017" .
+#Peminatan
+d:P1 sf:peminatan "Sistem Informasi" .
+d:P2 sf:peminatan "Artificial Intelligence" .
+d:P3 sf:peminatan "Jaringan Komputer" .
 
-<d:130023>
-        sf:judul      "Analisis Sentimen pada Review Film Menggunakan Text Mining dengan Menggunakan Naive Bayes Classifier" ;
-        sf:nama       "Hilga Dwiana Hardani" ;
-        sf:npm        "140810130023" ;
-        sf:peminatan  "Artificial Intelligence" ;
-        sf:tahun      "2017" .
+#Relasi Peminatan
+d:140810130030 sf:hasPeminatan d:P1 .
+d:140810130002 sf:hasPeminatan d:P1 .
+d:140810130056 sf:hasPeminatan d:P2 .
+d:140810130022 sf:hasPeminatan d:P1 .
+d:140810130035 sf:hasPeminatan d:P1 .
+d:140810120014 sf:hasPeminatan d:P2 .
+d:140810130007 sf:hasPeminatan d:P1 .
+d:140810130048 sf:hasPeminatan d:P1 .
+d:140810120027 sf:hasPeminatan d:P2 .
+d:140810130001 sf:hasPeminatan d:P2 .
+d:140810130042 sf:hasPeminatan d:P1 .
+d:140810130014 sf:hasPeminatan d:P2 .
+d:140810120001 sf:hasPeminatan d:P1 .
+d:140810130055 sf:hasPeminatan d:P1 .
+d:140810130027 sf:hasPeminatan d:P1 .
+d:140810120006 sf:hasPeminatan d:P2 .
+d:140810120019 sf:hasPeminatan d:P1 .
+d:140810130021 sf:hasPeminatan d:P3 .
+d:140810130034 sf:hasPeminatan d:P1 .
+d:140810120013 sf:hasPeminatan d:P3 .
+d:140810130006 sf:hasPeminatan d:P2 .
+d:140810120026 sf:hasPeminatan d:P3 .
+d:140810130047 sf:hasPeminatan d:P1 .
+d:140810130019 sf:hasPeminatan d:P1 .
+d:140810130041 sf:hasPeminatan d:P1 .
+d:140810120020 sf:hasPeminatan d:P1 .
+d:140810130013 sf:hasPeminatan d:P1 .
+d:140810130054 sf:hasPeminatan d:P1 .
+d:140810120005 sf:hasPeminatan d:P3 .
+d:140810130039 sf:hasPeminatan d:P1 .
+d:140810120018 sf:hasPeminatan d:P2 .
+d:140810130061 sf:hasPeminatan d:P3 .
+d:140810120012 sf:hasPeminatan d:P3 .
+d:140810130005 sf:hasPeminatan d:P1 .
+d:140810130046 sf:hasPeminatan d:P3 .
+d:140810130018 sf:hasPeminatan d:P1 .
+d:140810130059 sf:hasPeminatan d:P1 .
+d:140810130040 sf:hasPeminatan d:P1 .
+d:140810130012 sf:hasPeminatan d:P3 .
+d:140810130053 sf:hasPeminatan d:P1 .
+d:140810130025 sf:hasPeminatan d:P1 .
+d:140810130038 sf:hasPeminatan d:P2 .
+d:140810130060 sf:hasPeminatan d:P1 .
+d:140810120011 sf:hasPeminatan d:P1 .
+d:140810130032 sf:hasPeminatan d:P1 .
+d:140810130004 sf:hasPeminatan d:P1 .
+d:140810130045 sf:hasPeminatan d:P1 .
+d:140810120024 sf:hasPeminatan d:P1 .
+d:140810120009 sf:hasPeminatan d:P1 .
+d:140810130052 sf:hasPeminatan d:P1 .
+d:140810130024 sf:hasPeminatan d:P1 .
+d:140810120016 sf:hasPeminatan d:P1 .
+d:140810130009 sf:hasPeminatan d:P1 .
+d:140810130031 sf:hasPeminatan d:P1 .
+d:140810120010 sf:hasPeminatan d:P1 .
+d:140810130003 sf:hasPeminatan d:P1 .
+d:140810120023 sf:hasPeminatan d:P2 .
+d:140810130016 sf:hasPeminatan d:P2 .
+d:140810130029 sf:hasPeminatan d:P1 .
+d:140810120008 sf:hasPeminatan d:P2 .
+d:140810130010 sf:hasPeminatan d:P1 .
 
-<d:130036>
-        sf:judul      "Implementasi Algoritma Kriptografi AES Dengan Model ECB Pada Aplikasi LAN Messenger" ;
-        sf:nama       "Rahadian Hilmy" ;
-        sf:npm        "140810130036" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2017" .
+#Tahun Skripsi
+d:S16 sf:tahun "2016" .
+d:S17 sf:tahun "2017" .
+d:S18 sf:tahun "2018" .
+d:S19 sf:tahun "2019" .
+d:S20 sf:tahun "2020" .
 
-<d:120015>
-        sf:judul      "Penerapan Data Mining dalam Menganlisis Kepribadian Pengguna Media Sosial Dengan Naive Baye Classifier: Studi Kasus Media Sosial Instagram" ;
-        sf:nama       "Harits Muhammad" ;
-        sf:npm        "140810120015" ;
-        sf:peminatan  "Sistem Informasi" ;
-        sf:tahun      "2016" .
-
-<d:130008>
-        sf:judul      "Perhitungan Jumlah Kendaraan di Jalan Tol Menggunakan Metode Image Subtractingg" ;
-        sf:nama       "Rahmatullah Arrizal P." ;
-        sf:npm        "140810130008" ;
-        sf:peminatan  "Artificial Intelligence" ;
-        sf:tahun      "2017" .
-
-<d:130049>
-        sf:judul      "Pengenalan Wajah Berbasis Android Menggunakan Metode Principal Component Analysis" ;
-        sf:nama       "M. Fathurrahman" ;
-        sf:npm        "140810130049" ;
-        sf:peminatan  "Artificial Intelligence" ;
-        sf:tahun      "2017" .
+#Relasi Tahun Skripsi
+d:140810130030 sf:isTahun d:S17 .
+d:140810130002 sf:isTahun d:S17 .
+d:140810130056 sf:isTahun d:S17 .
+d:140810130022 sf:isTahun d:S17 .
+d:140810130035 sf:isTahun d:S17 .
+d:140810120014 sf:isTahun d:S16 .
+d:140810130007 sf:isTahun d:S17 .
+d:140810130048 sf:isTahun d:S17 .
+d:140810120027 sf:isTahun d:S17 .
+d:140810130001 sf:isTahun d:S17 .
+d:140810130042 sf:isTahun d:S17 .
+d:140810130014 sf:isTahun d:S17 .
+d:140810120001 sf:isTahun d:S16 .
+d:140810130055 sf:isTahun d:S17 .
+d:140810130027 sf:isTahun d:S17 .
+d:140810120006 sf:isTahun d:S16 .
+d:140810120019 sf:isTahun d:S17 .
+d:140810130021 sf:isTahun d:S17 .
+d:140810130034 sf:isTahun d:S17 .
+d:140810120013 sf:isTahun d:S17 .
+d:140810130006 sf:isTahun d:S17 .
+d:140810120026 sf:isTahun d:S16 .
+d:140810130047 sf:isTahun d:S17 .
+d:140810130019 sf:isTahun d:S17 .
+d:140810130041 sf:isTahun d:S17 .
+d:140810120020 sf:isTahun d:S16 .
+d:140810130013 sf:isTahun d:S17 .
+d:140810130054 sf:isTahun d:S17 .
+d:140810120005 sf:isTahun d:S17 .
+d:140810130039 sf:isTahun d:S17 .
+d:140810120018 sf:isTahun d:S17 .
+d:140810130061 sf:isTahun d:S17 .
+d:140810120012 sf:isTahun d:S17 .
+d:140810130005 sf:isTahun d:S17 .
+d:140810130046 sf:isTahun d:S17 .
+d:140810130018 sf:isTahun d:S17 .
+d:140810130059 sf:isTahun d:S17 .
+d:140810130040 sf:isTahun d:S17 .
+d:140810130012 sf:isTahun d:S17 .
+d:140810130053 sf:isTahun d:S17 .
+d:140810130025 sf:isTahun d:S17 .
+d:140810130038 sf:isTahun d:S17 .
+d:140810130060 sf:isTahun d:S17 .
+d:140810120011 sf:isTahun d:S17 .
+d:140810130032 sf:isTahun d:S17 .
+d:140810130004 sf:isTahun d:S17 .
+d:140810130045 sf:isTahun d:S17 .
+d:140810120024 sf:isTahun d:S16 .
+d:140810120009 sf:isTahun d:S17 .
+d:140810130052 sf:isTahun d:S17 .
+d:140810130024 sf:isTahun d:S17 .
+d:140810120016 sf:isTahun d:S17 .
+d:140810130009 sf:isTahun d:S17 .
+d:140810130031 sf:isTahun d:S17 .
+d:140810120010 sf:isTahun d:S17 .
+d:140810130003 sf:isTahun d:S17 .
+d:140810120023 sf:isTahun d:S16 .
+d:140810130016 sf:isTahun d:S17 .
+d:140810130029 sf:isTahun d:S17 .
+d:140810120008 sf:isTahun d:S17 .
+d:140810130010 sf:isTahun d:S17 .
