@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 export default function Skripsi(){
 return (
-    <body>
+    <div>
       {/* Navbar */}
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a className="navbar-brand" href="homepage">Skripsi Finder</a>
@@ -60,6 +60,6 @@ return (
                 <button type="button">Download</button>
             </div>
         </div>
-    </body>
+    </div>
     )
 }

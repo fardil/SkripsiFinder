@@ -180,12 +180,13 @@ article#abstrak{
   display: flex;
 }
 
-css login
+/* css login */
+
 .container#login{
   height:480px;
   margin-top: 40px;
   margin-bottom: 50px;
-  background-color:#1abc9c;
+  background-color:#002642;
   justify-content: space-between;
   flex-direction: column;
   display: flex;

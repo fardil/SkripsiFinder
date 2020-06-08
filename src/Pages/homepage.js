@@ -135,7 +135,7 @@ const content = value.skripsis.map((skripsi) =>
 
 // Layout
 return (
-    <body>
+    <div>
       {/* Navbar */}
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a className="navbar-brand" href="/">Skripsi Finder</a>
@@ -238,6 +238,6 @@ return (
         <footer>
           <div className="footer-copyright">&copy; 2020 Skripsi Finder</div>
         </footer>
-    </body>
+      </div>
     );
 }

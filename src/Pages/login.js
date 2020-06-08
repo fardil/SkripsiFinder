@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 export default function Login(){
 return (
-    <body>
+    <div>
       {/* Navbar */}
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a className="navbar-brand" href="/">Skripsi Finder</a>
@@ -52,6 +52,6 @@ return (
                 </MDBCol>
             </MDBRow>
         </div>
-    </body>
+    </div>
     )
 }
