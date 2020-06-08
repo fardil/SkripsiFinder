@@ -50,6 +50,15 @@ h5{
   color: grey;
 }
 
+footer{
+  background-color: #002642;
+  color: whitesmoke;
+  padding: 20px;
+  width: 100%;
+  overflow: hidden;
+  bottom: 0;
+}
+
 form{
   margin-top: 20px;
   transform: translateY(15px);
@@ -117,15 +126,6 @@ form{
     margin: auto;
     width: 200px;
     background-color: #EEE82C;
-  }
-  footer{
-    background-color: #002642;
-    color: whitesmoke;
-    padding: 20px;
-    width: 100%;
-    position: absolute;
-    overflow: hidden;
-    bottom: 0;
   }
 }
 
